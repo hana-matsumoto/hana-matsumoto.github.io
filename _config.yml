@@ -1,4 +1,4 @@
 title: Hana Matsumoto
 
-#theme: Scriptor-Jekyll-Theme
-theme: jekyll-theme-minimal
+remote_theme: "Scriptor-Jekyll-Theme"
+#theme: jekyll-theme-minimal
