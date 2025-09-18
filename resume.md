@@ -16,14 +16,17 @@ permalink: /resume/
 
 ## Experience
 <div class="timeline">
-{% for job in site.data.resume.experience %}
-  <div class="timeline-item">
-    <div class="timeline-date">{{ job.date }}</div>
-    <div class="timeline-content">
-      <h3>{{ job.title }}</h3>
+  {% for job in site.data.resume.experience %}
+    <div class="timeline-item">
+      <div class="timeline-header">
+        <h3>{{ job.title }}</h3> <span class="job-date">{{ job.date }}</span>
+      </div>
       <p><strong>{{ job.organization }}</strong></p>
-      <p>{{ job.description }}</p>
+      <ul>
+        {% for bullet in job.description %}
+          <li>{{ bullet }}</li>
+        {% endfor %}
+      </ul>
     </div>
-  </div>
-{% endfor %}
+  {% endfor %}
 </div>
