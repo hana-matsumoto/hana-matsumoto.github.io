@@ -1,12 +1,13 @@
 title: Hana Matsumoto
 
 #remote_theme: "Scriptor-Jekyll-Theme"
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+theme: jekyll-theme-minima
 
 nav:
   - title: "Home"
     url: /
   - title: "About"
     url: /about
-  - title: "Projects"
-    url: /projects
+ # - title: "Projects"
+ #   url: /projects
