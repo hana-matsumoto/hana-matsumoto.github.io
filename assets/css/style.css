@@ -74,3 +74,25 @@ header.header-image img {
   object-position: center;  /* Centers the image */
   display: block; /* Removes unwanted space below the image */
 }
+
+/* Ensure the navbar follows Minima's style */
+nav.navbar {
+  background-color: #fff;  /* Light background */
+  border-bottom: 1px solid #ddd;  /* Subtle bottom border */
+}
+
+nav.navbar a.nav-link {
+  font-size: 16px;  /* Default font size in Minima */
+  color: #333;  /* Dark text color */
+  text-transform: uppercase;  /* Minima uses uppercase for nav links */
+  padding: 0.5rem 1rem;  /* Adjust padding for spacing */
+}
+
+nav.navbar a.nav-link:hover {
+  color: #007bff;  /* Minima hover effect color */
+}
+
+nav.navbar-toggler {
+  border-color: #ccc;  /* Subtle border for the menu button */
+}
+
