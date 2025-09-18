@@ -3,7 +3,8 @@ layout: page
 title: Home
 permalink: /
 ---
+<header class="home-header">
+  <img src="/assets/images/python.png" alt="Header Image" />
+</header>
 
-# Welcome to my page
-
-![Header Image](/assets/python.png)
+# About
