@@ -6,8 +6,8 @@ theme: minima
 
 header_pages:
   - index.md
-  - about.md
   - projects.md
+  - resume.md
 
 collections:
   projects:
