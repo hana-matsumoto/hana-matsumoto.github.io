@@ -6,11 +6,5 @@ theme: minima
 
 header_pages:
   - index.md
-  - About.md
-#nav:
- # - title: "Home"
-  #  url: /
-  #@- title: "About"
-   # url: /About
- # - title: "Projects"
- #   url: /projects
+  - about.md
+  - projects.md
