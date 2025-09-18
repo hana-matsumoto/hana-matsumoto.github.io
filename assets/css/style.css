@@ -66,8 +66,9 @@ sass:
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-header img {
-  width: 100%;  /* Make it full width */
+body.home .home-header img {
+  width: 100%;  /* Make the image full width */
   height: auto; /* Maintain aspect ratio */
-  display: block;  /* Remove unwanted space under the image */
+  display: block; /* Remove extra space below the image */
+  margin-bottom: 20px; /* Optional: spacing below the header image */
 }
