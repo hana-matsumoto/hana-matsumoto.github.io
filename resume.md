@@ -8,8 +8,8 @@ permalink: /resume/
 
 ## Education
 {% for item in site.data.resume.education %}
-- **{{ item.degree }}**, {{ item.school }} ({{ item.years }})  
-  {{ item.details }}
+- **{{ item.degree }}**, {{ item.school }} ({{ item.date }})  
+  {{ item.description }}
 {% endfor %}
 
 ---
@@ -18,10 +18,10 @@ permalink: /resume/
 <div class="timeline">
 {% for job in site.data.resume.experience %}
   <div class="timeline-item">
-    <div class="timeline-date">{{ job.years }}</div>
+    <div class="timeline-date">{{ job.date }}</div>
     <div class="timeline-content">
       <h3>{{ job.title }}</h3>
-      <p><strong>{{ job.company }}</strong> — {{ job.location }}</p>
+      <p><strong>{{ job.organization }}</strong></p>
       <p>{{ job.description }}</p>
     </div>
   </div>
