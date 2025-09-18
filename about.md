@@ -5,4 +5,3 @@ permalink: /about/
 ---
 
 # About Me
-A little info here.
