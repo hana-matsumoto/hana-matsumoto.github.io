@@ -6,34 +6,33 @@ permalink: /resume/
 
 # Resume
 
-## Experience
-<div class="timeline">
-{% for job in site.data.resume.experience %}
-  <div class="timeline-item">
-    <div class="timeline-marker"></div>
-    <div class="timeline-content">
-      <h3>{{ job.title }}</h3>
-      <h4>{{ job.organization }}</h4>
-      <p class="date">{{ job.date }}</p>
-      <p>{{ job.description }}</p>
-    </div>
-  </div>
-{% endfor %}
-</div>
+## Education
+- **M.S. Environmental Studies**, University of Oregon, 2025
+- **M.S. Geography**, University of Oregon, 2025  
+  NSF Graduate Research Fellow  
+
+- **B.Sc. Environmental Science**, Kent State University, 2021
 
 ---
 
-## Education
+## Experience
+
 <div class="timeline">
-{% for edu in site.data.resume.education %}
   <div class="timeline-item">
-    <div class="timeline-marker"></div>
+    <div class="timeline-date">May 2021 – Present</div>
     <div class="timeline-content">
-      <h3>{{ edu.degree }}</h3>
-      <h4>{{ edu.school }}</h4>
-      <p class="date">{{ edu.date }}</p>
-      <p>{{ edu.description }}</p>
+      <h3>Contract Researcher</h3>
+      <p><strong>Flipp</strong> — Remote</p>
+      <p>Examined the impact of COVID-19 on food shopping behaviors through mobile app data.</p>
     </div>
   </div>
-{% endfor %}
+
+  <div class="timeline-item">
+    <div class="timeline-date">Sep 2020 – Apr 2021</div>
+    <div class="timeline-content">
+      <h3>Student Consultant</h3>
+      <p><strong>School of Cities</strong> — Remote</p>
+      <p>Multidisciplinary Capstone Project: Measuring and Enhancing Community Vitality.</p>
+    </div>
+  </div>
 </div>
