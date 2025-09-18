@@ -2,24 +2,26 @@ experience:
   - title: NSF Graduate Research Fellow
     organization: University of Oregon
     date: September 2022 – September 2025 · Hybrid
-    description: >
-      -	Designed and executed predictive models (random forest) to investigate vegetation shifts using remotely sensed and large environmental datasets performed in R and GEE Python API.
-      -	Developed reproducible workflows for large, complex spatial and temporal datasets; built visual reports and dashboards to summarize findings.
-      -	Presented complex analyses to academic and general audiences, translating model results into strategic insights.
-      -	Secured $156,850 in research funding through competitive proposal writing and project scoping.
+    description:
+      - "Designed and executed predictive models (random forest) to investigate vegetation shifts using remotely sensed and large environmental datasets performed in R and GEE Python API."
+      - "Developed reproducible workflows for large, complex spatial and temporal datasets; built visual reports and dashboards to summarize findings."
+      - "Presented complex analyses to academic and general audiences, translating model results into strategic insights."
+      - "Secured $156,850 in research funding through competitive proposal writing and project scoping."
+      
   - title: Geospatial Data Research Assistant
     organization: Kent State University
     date: August 2020 – August 2022 · Hybrid
-    description: >
-      -	Built and cleaned large geospatial datasets integrating field and remotely sensed data, using R and Google Earth Engine.
-      -	Created clear, high-impact data visualizations and figures for numerous professional presentations and publications.
+    description:
+      - "Built and cleaned large geospatial datasets integrating field and remotely sensed data, using R and Google Earth Engine."
+      - "Created clear, high-impact data visualizations and figures for numerous professional presentations and publications."
+      
   - title: Sustainability Analyst Intern
     organization: Akron Zoological Park
     date: August 2018 – August 2019
-    description: >
-      -	Conducted data collection, analysis, and visualization to support key projects for the zoo’s sustainability plan, identifying trends and opportunities for improvement.
-      -	Developed clear, data-backed communications, including newsletters and reports, to translate sustainability findings into actionable recommendations.
-      -	Collaborated across operations and marketing teams to design outreach campaigns tied to sustainability performance.
+    description:
+      - "Conducted data collection, analysis, and visualization to support key projects for the zoo’s sustainability plan, identifying trends and opportunities for improvement."
+      - "Developed clear, data-backed communications, including newsletters and reports, to translate sustainability findings into actionable recommendations."
+      - "Collaborated across operations and marketing teams to design outreach campaigns tied to sustainability performance."
 
 education:
   - degree: M.S. of Environmental Studies
