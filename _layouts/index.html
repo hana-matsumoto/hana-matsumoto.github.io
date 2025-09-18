@@ -5,23 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  <!-- You can include other meta tags or links here -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 </head>
 <body>
-  <!-- Navigation (this is the same as the default Minima navigation) -->
+  <!-- Minima Navigation -->
   <header class="site-header">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="{{ site.baseurl | relative_url }}">{{ site.title }}</a>
-        <ul class="navbar-nav">
-          {% for page in site.pages %}
-            {% if page.title %}
-              <li class="nav-item">
-                <a class="nav-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            {% for page in site.pages %}
+              {% if page.title and page.title != "Home" %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
@@ -36,5 +41,9 @@
     {{ content }}
   </main>
 
+  <!-- Scripts for Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
