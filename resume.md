@@ -6,8 +6,6 @@ permalink: /resume/
 
 # Resume
 
-# Resume
-
 ## Education
 {% for item in site.data.resume.education %}
 - **{{ item.degree }}**, {{ item.school }} ({{ item.years }})  
