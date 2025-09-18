@@ -105,3 +105,12 @@ nav.navbar {
 nav.navbar-toggler {
   border-color: #ccc;  /* Subtle border for the menu button */
 }
+
+body, .navbar, .nav-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Apply the serif font to headings (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+}
