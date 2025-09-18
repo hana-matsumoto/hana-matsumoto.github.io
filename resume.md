@@ -3,9 +3,6 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-
-# Resume
-
 ## Education
 {% for item in site.data.resume.education %}
 - **{{ item.degree }}**, {{ item.school }} ({{ item.date }})  
