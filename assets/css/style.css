@@ -77,7 +77,7 @@ header.header-image img {
 
 /* Style for the Site Title (Your Name) */
 .site-title {
-  font-size: 2rem;  /* Adjust the font size for your name */
+  font-size: 1.75rem;  /* Adjust the font size for your name */
   font-weight: bold;   /* Bold the site title */
   color: #007bff;      /* Set color to match the navbar links (adjust as needed) */
   text-transform: none;  /* Remove uppercase transformation */
