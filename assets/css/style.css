@@ -77,7 +77,7 @@ header.header-image img {
 
 /* Style for the Site Title (Your Name) */
 .site-title {
-  font-size: 1.75rem;  /* Adjust the font size for your name */
+  font-size: 2rem;  /* Adjust the font size for your name */
   font-weight: bold;   /* Bold the site title */
   color: #007bff;      /* Set color to match the navbar links (adjust as needed) */
   text-transform: none;  /* Remove uppercase transformation */
@@ -87,7 +87,7 @@ header.header-image img {
 nav.navbar a.nav-link {
   font-size: 1rem;          /* Use smaller font size for navigation links */
   color: #333;              /* Dark text color for navigation links */
-  text-transform: capitalize; /* Capitalize the first letter of each word */
+  text-transform: none; 
   padding: 0.5rem 1rem;     /* Adjust padding for spacing */
 }
 
