@@ -5,15 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  <!-- Add any other necessary meta tags here -->
+  <!-- You can include other meta tags or links here -->
 </head>
-<body class="home">
-  <!-- Header Section -->
-  <header class="header-image">
-    <img src="{{ "/assets/python.png" | relative_url }}" alt="Header Image" />
+<body>
+  <!-- Navigation (this is the same as the default Minima navigation) -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="{{ site.baseurl | relative_url }}">{{ site.title }}</a>
+        <ul class="navbar-nav">
+          {% for page in site.pages %}
+            {% if page.title %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
   </header>
 
-  <!-- Main Content -->
+  <!-- Custom Header Image for Index Page -->
+  <header class="header-image">
+    <img src="{{ "/assets/images/your-header-image.jpg" | relative_url }}" alt="Header Image" />
+  </header>
+
+  <!-- Main Content Area (index page content will be rendered here) -->
   <main>
     {{ content }}
   </main>
