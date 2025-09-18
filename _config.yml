@@ -6,7 +6,7 @@ theme: minima
 
 header_pages:
   - index.md
-  - about.md
+  - About.md
 #nav:
  # - title: "Home"
   #  url: /
