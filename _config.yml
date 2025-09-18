@@ -4,10 +4,13 @@ title: Hana Matsumoto
 #theme: jekyll-theme-minimal
 theme: minima
 
-nav:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /About
+header_pages:
+  - index.md
+  - about.md
+#nav:
+ # - title: "Home"
+  #  url: /
+  #@- title: "About"
+   # url: /About
  # - title: "Projects"
  #   url: /projects
