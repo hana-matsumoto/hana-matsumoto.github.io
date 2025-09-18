@@ -83,34 +83,49 @@ header.header-image img {
   text-transform: none;  /* Remove uppercase transformation */
 }
 
-/* Style for the Navbar Links */
+/* Site Header Styling */
+.site-header {
+  border-top: 5px solid #424242;   /* Darker top border */
+  border-bottom: 1px solid #e8e8e8; /* Lighter bottom border */
+  min-height: 55.95px;              /* Minimum header height */
+  position: relative;               /* For positioning child elements */
+  padding-top: 10px;                /* Space above the site title */
+  padding-bottom: 10px;             /* Space below the site title */
+}
+
+/* Wrapper for Content */
+.wrapper {
+  max-width: calc(800px - (30px * 2));  /* Max width minus padding */
+  margin-right: auto;                  /* Center content */
+  margin-left: auto;                   /* Center content */
+  padding-right: 30px;                 /* Padding on right side */
+  padding-left: 30px;                  /* Padding on left side */
+}
+
+/* Navbar Spacing and Styling */
+.navbar {
+  padding-top: 10px;                   /* Top padding for navbar */
+  padding-bottom: 10px;                /* Bottom padding for navbar */
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;                   /* Space between nav items */
+}
+
+/* Adjust Navbar Brand (Site Title) */
+.navbar-brand {
+  margin-right: 30px;                  /* Distance between site title and nav */
+}
+
+/* Navbar Links Styling */
 nav.navbar a.nav-link {
-  font-size: 1rem;          /* Use smaller font size for navigation links */
-  color: #333;              /* Dark text color for navigation links */
-  text-transform: none; 
-  padding: 0.5rem 1rem;     /* Adjust padding for spacing */
+  font-size: 1rem;                     /* Font size of navigation links */
+  color: #333;                         /* Dark text color */
+  text-transform: capitalize;          /* Capitalize only the first letter */
+  padding: 0.5rem 1rem;                /* Spacing around navigation links */
 }
 
-/* Hover Effect for Navbar Links */
+/* Navbar Links Hover Effect */
 nav.navbar a.nav-link:hover {
-  color: #007bff;  /* Set the hover color to blue, matching the theme */
-}
-
-/* Style for Navbar */
-nav.navbar {
-  background-color: #fff;  /* Light background */
-  border-bottom: 1px solid #ddd;  /* Subtle bottom border */
-}
-
-nav.navbar-toggler {
-  border-color: #ccc;  /* Subtle border for the menu button */
-}
-
-body, .navbar, .nav-link {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
-
-/* Apply the serif font to headings (h1, h2, h3, etc.) */
-h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, serif;
+  color: #007bff;                      /* Blue hover effect */
 }
