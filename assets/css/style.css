@@ -66,10 +66,13 @@ sass:
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-body.home header.header-image img {
-  width: 100vw;  /* Full width of the viewport */
-  height: 100vh; /* Full height of the viewport */
-  object-fit: cover;
-  object-position: center;
-  display: block;
+body.home header.site-header {
+  background-image: url("/assets/python.png");
+  background-size: cover;         /* Ensures the image covers the header */
+  background-position: center;    /* Centers the image */
+  height: 400px;                  /* Adjust height to your preference */
+}
+
+body.home header.site-header h1 {
+  display: none; /* Hide the site title text if needed (optional) */
 }
