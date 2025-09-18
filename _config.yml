@@ -8,3 +8,14 @@ header_pages:
   - index.md
   - about.md
   - projects.md
+
+collections:
+  projects:
+    output: true   # each project gets its own page
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
