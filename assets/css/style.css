@@ -68,11 +68,10 @@ sass:
 
 body.home header.site-header {
   background-image: url("/assets/python.png");
-  background-size: cover;         /* Ensures the image covers the header */
-  background-position: center;    /* Centers the image */
-  height: 400px;                  /* Adjust height to your preference */
-}
-
-body.home header.site-header h1 {
-  display: none; /* Hide the site title text if needed (optional) */
+  background-size: cover;        /* Ensures the image covers the header */
+  background-position: center;   /* Centers the image */
+  height: 400px;                 /* Adjust height as necessary */
+  display: flex;                 /* Center content */
+  justify-content: center;       /* Center content */
+  align-items: center;           /* Center content vertically */
 }
