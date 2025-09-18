@@ -66,14 +66,6 @@ sass:
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-header.header-image img {
-  width: 100vw;  /* Full width of the viewport */
-  height: 100vh; /* Full height of the viewport */
-  object-fit: cover; /* Ensures the image covers the entire area without distortion */
-  object-position: center; /* Centers the image */
-  display: block; /* Removes space below the image */
-}
-
 body.home header.header-image img {
   width: 100vw;  /* Full width of the viewport */
   height: 100vh; /* Full height of the viewport */
