@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
+title: Resume
 permalink: /about/
 ---
 
-# About Me
+
