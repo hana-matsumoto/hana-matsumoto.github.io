@@ -31,3 +31,12 @@
   font-size: 0.9em;
   color: #555;
 }
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Include your CSS
+sass:
+  style: compressed
