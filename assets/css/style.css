@@ -66,12 +66,11 @@ sass:
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-body.home header.site-header {
-  background-image: url("/assets/python.png");
-  background-size: cover;        /* Ensures the image covers the header */
-  background-position: center;   /* Centers the image */
-  height: 400px;                 /* Adjust height as necessary */
-  display: flex;                 /* Center content */
-  justify-content: center;       /* Center content */
-  align-items: center;           /* Center content vertically */
+/* Full-width header image for the index page */
+header.header-image img {
+  width: 100vw;  /* Full width of the viewport */
+  height: 400px; /* Adjust height as needed */
+  object-fit: cover;  /* Ensures the image covers the area without distortion */
+  object-position: center;  /* Centers the image */
+  display: block; /* Removes unwanted space below the image */
 }
