@@ -24,7 +24,7 @@ permalink: /resume/
       <p><strong>{{ job.organization }}</strong></p>
       <ul>
         {% for bullet in job.description %}
-          <li>{{ bullet }}</li>
+          <li>{{ bullet | markdownify }}</li>
         {% endfor %}
       </ul>
     </div>
