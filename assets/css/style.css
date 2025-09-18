@@ -114,19 +114,16 @@ header.header-image img {
   padding-left: 30px;                  /* Padding on left side */
 }
 
-/* Navbar Spacing and Styling */
-.navbar {
-  padding-top: 10px;                   /* Top padding for navbar */
-  padding-bottom: 10px;                /* Bottom padding for navbar */
-}
-
-.navbar-nav .nav-item {
-  margin-left: 15px;                   /* Space between nav items */
-}
-
 /* Adjust Navbar Brand (Site Title) */
 .navbar-brand {
-  margin-right: 30px;                  /* Distance between site title and nav */
+  margin-right: 30px;  /* Adjust distance between title and nav */
+  padding-top: 8px;    /* Align title vertically with navbar items */
+}
+
+/* Navbar Spacing */
+.navbar {
+  padding-top: 10px;   /* Adjust padding for top spacing */
+  padding-bottom: 10px; /* Adjust padding for bottom spacing */
 }
 
 /* Navbar Links Styling */
