@@ -4,14 +4,24 @@ layout: default
 
 <main class="page-content" aria-label="Content">
 
-  <!-- ✅ Full-width header image (outside the wrapper) -->
-  <div class="home-header">
-    <img src="{{ '/assets/python.png' | relative_url }}"
+  <!-- FULL-BLEED HERO (spans entire viewport) -->
+  <section class="site-hero">
+    <img src="{{ '/assets/images/homepage-header.jpg' | relative_url }}"
          alt="Homepage header"
-         class="full-width-header">
-  </div>
+         class="site-hero__image">
 
-  <!-- ✅ Content stays in Minima's centered wrapper -->
+    <!-- overlay wrapper keeps text aligned with site content -->
+    <div class="site-hero__overlay">
+      <div class="wrapper">
+        <h1 class="site-hero__title">{{ site.title }}</h1>
+        {% if site.description %}
+          <p class="site-hero__subtitle">{{ site.description }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Normal Minima centered content -->
   <div class="wrapper">
     {{ content }}
   </div>
