@@ -67,50 +67,9 @@ sass:
 }
 
 
-
-/* Make the hero break out of the centered wrapper */
-.site-hero {
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  width: 100vw;
-  overflow: hidden;
-  z-index: 0;
-}
-
-/* The image fills the full viewport-width hero area */
-.site-hero__image {
-  display: block;
-  width: 100%;
-  height: 420px;        /* tweak height as you like */
-  object-fit: cover;
-  object-position: center;
-}
-
-/* Overlay sits on top of the image, with content aligned to .wrapper */
-.site-hero__overlay {
-  position: absolute;
-  inset: 0;             /* top:0; right:0; bottom:0; left:0; */
-  display: flex;
-  align-items: center;  /* vertical centering for overlay content */
-  pointer-events: none; /* let clicks pass through to underlying elements (optional) */
-}
-
-/* Make overlay text inherit Minima fonts and sizing */
-.site-hero__title,
-.site-hero__subtitle {
-  color: white;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
-  margin: 0;
-  pointer-events: auto; /* allow selecting links/text if you add them */
-}
-
-/* Small responsive tweaks */
-@media (max-width: 768px) {
-  .site-hero__image { height: 260px; }
-  .site-hero__title { font-size: 1.6rem; }
+body.home-background {
+  background: url("/assets/python.png") no-repeat center center fixed;
+  background-size: cover;
 }
 
 
