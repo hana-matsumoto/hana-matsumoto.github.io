@@ -69,9 +69,10 @@ sass:
 
 
 .full-width-header {
-  width: 100%;
-  height: auto;
-  border-radius: 0;
+  width: 100vw;       /* span entire viewport */
+  height: 400px;      /* adjust height */
+  object-fit: cover;  /* crop instead of distort */
+  object-position: center;
   display: block;
 }
 
