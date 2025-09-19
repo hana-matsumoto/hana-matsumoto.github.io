@@ -112,3 +112,8 @@ sass:
   .site-hero__image { height: 260px; }
   .site-hero__title { font-size: 1.6rem; }
 }
+
+
+body.page-resume h1 {
+  display: none;
+}
