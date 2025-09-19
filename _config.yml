@@ -3,7 +3,6 @@ title: Hana Matsumoto
 #remote_theme: "Scriptor-Jekyll-Theme"
 #theme: jekyll-theme-minimal
 theme: minima
-css: "/assets/css/style.css"
 
 header_pages:
   - index.md
