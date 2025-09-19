@@ -2,32 +2,6 @@
 layout: base
 ---
 
-<main class="page-content" aria-label="Content">
-
-  <!-- FULL-BLEED HERO (spans entire viewport) -->
-  <section class="site-hero">
-    <img src="{{ '/assets/python.png' | relative_url }}"
-         alt="Homepage header"
-         class="site-hero__image">
-
-    <!-- overlay wrapper keeps text aligned with site content -->
-    <div class="site-hero__overlay">
-      <div class="wrapper">
-        <h1 class="site-hero__title">{{ site.title }}</h1>
-        {% if site.description %}
-          <p class="site-hero__subtitle">{{ site.description }}</p>
-        {% endif %}
-      </div>
-    </div>
-  </section>
-
-  <!-- Normal Minima centered content -->
-  <div class="wrapper">
-    {{ content }}
-  </div>
-</main>
-
-
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -91,4 +65,3 @@ layout: base
     {%- endif %}
   {%- endif -%}
 </div>
-
