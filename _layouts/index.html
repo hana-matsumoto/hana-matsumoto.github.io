@@ -1,11 +1,19 @@
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+---
+layout: default
+---
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
-  <!-- Minima base styles -->
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  <!-- Your custom overrides -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
+<main class="page-content" aria-label="Content">
+  <div class="wrapper">
+
+    <!-- ✅ Custom homepage header -->
+    {% if page.url == "/" %}
+      <div class="home-header" style="margin-bottom: 2rem;">
+        <img src="{{ '/assets/images/homepage-header.jpg' | relative_url }}" 
+             alt="Homepage header" 
+             class="full-width-header">
+      </div>
+    {% endif %}
+
+    {{ content }}
+  </div>
+</main>
