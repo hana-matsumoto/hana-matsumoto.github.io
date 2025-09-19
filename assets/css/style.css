@@ -68,15 +68,11 @@ sass:
 
 
 
-/* Apply the default Minima font stack to the body and navbar */
-body, .navbar, .nav-link {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
 
-/* Apply the serif font to headings (h1, h2, h3, etc.) */
-h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, serif;
-}
+
+
+
+
 
 /* Full-width header image for the index page */
 header.header-image img {
