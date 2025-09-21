@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Hana Matsumoto"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/head_shot.jpg"
   bio              : "Aspiring Data Scientist"
   location         : #"Somewhere"
   email            : "hanamatsumoto97@gmail.com"
