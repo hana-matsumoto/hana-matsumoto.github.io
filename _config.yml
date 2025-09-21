@@ -117,7 +117,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Aspiring Data Scientist"
   location         : #"Somewhere"
-  email            : "hanamatsumoto97@gmail.com
+  email            : "hanamatsumoto97@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
