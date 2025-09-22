@@ -3,7 +3,6 @@ layout: single
 title: Resume
 permalink: /resume/
 ---
-
 # Experience
 
 ## NSF Graduate Research Fellow  
@@ -37,7 +36,7 @@ permalink: /resume/
 
 # Education  
 
-- **M.S. Environmental Studies**, University of Oregon — *Expected 2025*  
-- **M.S. Geography**, University of Oregon — *Expected 2025*  
+- **M.S. Environmental Studies**, University of Oregon — *September 2025*  
+- **M.S. Geography**, University of Oregon — *September 2025*  
 - **B.S. Environmental Science**, Kent State University — *2021*  
   - *Magna cum laude*  
