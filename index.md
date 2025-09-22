@@ -26,9 +26,11 @@ title: "Welcome"
 
     <div class="education">
       <h3>Education</h3>
-      <p><strong>M.S. Environmental Studies </strong>, 2025<br>
-      <p><stong>M.S. Geography </strong>, 2025<br>
-      University of Oregon</p>
+      <ul>
+        <li><strong>M.S. Environmental Studies </strong>, 2025</li>
+        <li><stong>M.S. Geography </strong>, 2025</li>
+        <li>University of Oregon<li>
+      </ul>
     </div>
 
 </div>
