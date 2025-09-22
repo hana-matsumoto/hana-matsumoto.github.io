@@ -9,8 +9,6 @@ title: "Welcome"
 ---
 
 <div>
-  <p>My research interests lie at the intersection of spatial statistics and data visualization.</p>
-
     <p>Leveraging data analysis, machine learning and visualization design principles to generate data-driven insights and decisions.</p>
 
     <p class="skills">
@@ -28,7 +26,8 @@ title: "Welcome"
 
     <div class="education">
       <h3>Education</h3>
-      <p><strong>M.S. Environmental Studies, M.S. Geography </strong>, 2025<br>
+      <p><strong>M.S. Environmental Studies </strong>, 2025<br>
+      <p><stong>M.S. Geography </strong>, 2025<br>
       University of Oregon</p>
     </div>
 
