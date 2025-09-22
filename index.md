@@ -23,7 +23,6 @@ Passionate about uncovering patterns in data and turning them into real-world so
 ---
 
 ### Education
-- **M.S. Environmental Studies**, University of Oregon — *September 2025*  
-- **M.S. Geography**, University of Oregon — *September 2025*  
-- **B.S. Environmental Science**, Kent State University — *2021*  
-  - *Magna cum laude*  
+**M.S. Environmental Studies**, University of Oregon — *September 2025*  
+**M.S. Geography**, University of Oregon — *September 2025*  
+**B.S. Environmental Science**, Kent State University — *2021* (*Magna cum laude*)
