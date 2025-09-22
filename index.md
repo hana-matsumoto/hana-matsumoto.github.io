@@ -7,28 +7,23 @@ header:
   show_overlay_excerpt: "false"
 title: "Welcome"
 ---
+Transforming complex data into actionable insights through machine learning, statistical anaylysis, and visualization.
 
-<div>
-    <p>Leveraging data analysis, machine learning and visualization design principles to generate data-driven insights and decisions.</p>
+Passionate about uncovering patterns in data and turning them into real-world solutions.
 
-    <p class="skills">
-      💻 R • Python • GEE • ESRI | QGIS • SQL
-    </p>
+💻 **Skills:** R • Python • Google Earth Engine • ESRI | QGIS • SQL  
 
-    <div class="interests">
-      <h3>Interests</h3>
-      <ul>
-        <li>Spatial Statistics</li>
-        <li>Machine Learning</li>
-        <li>Data Visualization</li>
-      </ul>
-    </div>
+---
 
-    <div class="education">
-      <h3>Education</h3>
-        <p><strong>M.S. Environmental Studies </strong>, 2025</p>
-        <p><stong>M.S. Geography </strong>, 2025</p>
-        <p>University of Oregon</p>
-    </div>
+### Interests
+- Spatial Statistics  
+- Machine Learning  
+- Data Visualization  
 
-</div>
+---
+
+### Education
+- **M.S. Environmental Studies**, University of Oregon — *Expected 2025*  
+- **M.S. Geography**, University of Oregon — *Expected 2025*  
+- **B.S. Environmental Science**, Kent State University — *2021*  
+  - *Magna cum laude*  
