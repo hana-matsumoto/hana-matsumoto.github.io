@@ -1,6 +1,5 @@
 ---
 layout: single
-title: Resume
 permalink: /resume/
 ---
 # Experience
@@ -44,7 +43,6 @@ permalink: /resume/
 
 # Education
 
-- **M.S. Environmental Studies**, University of Oregon — *September 2025*
-- **M.S. Geography**, University of Oregon — *September 2025*
-- **B.S. Environmental Science**, Kent State University — *2021*
-  - *Magna cum laude*
+**M.S. Environmental Studies**, University of Oregon — *2025*
+**M.S. Geography**, University of Oregon — *2025*
+**B.S. Environmental Science**, Kent State University — *2021* (*Magna cum laude*)
