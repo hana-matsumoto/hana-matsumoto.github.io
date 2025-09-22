@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "How can predictive models be used to analyze vegetation changes in Alaska?"
 excerpt: "Leveraging predictive models and remotely sensed data to investigate how vegetation is changing in boreal Alaska"
 ---
