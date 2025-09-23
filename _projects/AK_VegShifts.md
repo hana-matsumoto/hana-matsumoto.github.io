@@ -494,4 +494,4 @@ The different patterns of species basal area could be attributed to each species
 ![Losses and gains of species basal area in relation to wildfire](https://hana-matsumoto.github.io/assets/images/BA_fire.png "Figure 3: Losses and gains of species basal area in relation to wildfire")
 
 ## Conclusions
-This research highlights the importance of species-level analysis in ecological modeling. The findings suggest that models that aggregate species into functional groups may miss critical trends and overestimate changes. The use of remote sensing and time-series analysis provided a powerful method for validating complex model outputs and provided a more nuanced understanding of forest dynamics.
+This research highlights the importance of species-level analysis in ecological research. The findings suggest that models that aggregate species into functional groups may miss critical trends and overestimate changes. The use of remote sensing, machine learning and time-series analysis provide a powerful method for upscaling smaller datasets from field research and can help provide a more nuanced understanding of forest dynamics.
