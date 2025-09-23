@@ -7,11 +7,11 @@ header:
   show_overlay_excerpt: "false"
 title: "Welcome"
 ---
-Transforming complex data into actionable insights through machine learning, statistical analysis, and visualization.
+### Transforming complex data into actionable insights through machine learning, statistical analysis, and visualization.
 
-Passionate about uncovering patterns in data and turning them into real-world solutions.
+### Passionate about uncovering patterns in data and turning them into real-world solutions.
 
-### 💻 Skills:
+### Skills
 R • Python • Google Earth Engine • ESRI | QGIS • SQL  
 
 ---
