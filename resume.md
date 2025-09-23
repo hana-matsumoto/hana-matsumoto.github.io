@@ -4,8 +4,7 @@ permalink: /resume/
 title: ""
 ---
 # Experience
-
-## NSF Graduate Research Fellow
+### NSF Graduate Research Fellow
 **University of Oregon** · *September 2022 – September 2025 · Hybrid*
 
 - **Developed and validated 48 Random Forest classification models** to predict vegetation shifts across four 10,000 km² landscapes, achieving an average accuracy of over 82% and an AUC-ROC of over 90%. This analysis helped identify key environmental drivers of change over a 280-year simulation period.  
@@ -17,7 +16,7 @@ title: ""
 
 ---
 
-## Geospatial Data Research Assistant
+### Geospatial Data Research Assistant
 **Kent State University** · *August 2020 – August 2022 · Hybrid* 
 
 - **Built, cleaned and analyzed large geospatial datasets** integrating field and remotely sensed data, using **R and Google Earth Engine**.
@@ -25,7 +24,7 @@ title: ""
 
 ---
 
-## Sustainability Analyst Intern
+### Sustainability Analyst Intern
 **Akron Zoological Park** · *August 2018 – August 2019*
 
 - **Conducted data collection, analysis, and visualization** to support key projects for the zoo’s sustainability plan, identifying trends and opportunities for improvement.  
@@ -35,7 +34,7 @@ title: ""
 
 ---
 
-## GIS Intern
+### GIS Intern
 **CBRE FacilitySource** · *May 2017 – December 2018*
 
 -	**Performed spatial data analysis and visualization** to support large-scale commercial landscape planning.
@@ -43,7 +42,6 @@ title: ""
 ---
 
 # Education
-
 **M.S. Environmental Studies**, University of Oregon — *2025*
 **M.S. Geography**, University of Oregon — *2025*
 **B.S. Environmental Science**, Kent State University — *2021* (*Magna cum laude*)
