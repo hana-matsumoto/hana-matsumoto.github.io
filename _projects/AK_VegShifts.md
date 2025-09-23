@@ -1,5 +1,6 @@
 ---
 title: "How can predictive models be used to analyze vegetation changes in Alaska?"
+layout: single
 excerpt: "Leveraging random forest models and remotely sensed data to investigate how vegetation is changing in boreal Alaska"
 header:
   teaser: /assets/images/python.png
