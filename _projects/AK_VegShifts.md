@@ -477,8 +477,8 @@ for (spp in species) {
 
 ### Prediction results
 The time-series analysis (Figure X) revealed that vegetation change was often species-specific, challenging the common ecological assumption that species within a functional group (e.g., all conifers) behave similarly. Black spruce was found to be the primary driver of conifer decline, while Alaska birch drove the increase in deciduous trees. This analysis showed that the model's predictions of forest change at the species level were more accurate than those at the functional group level.
-![Change in species basal area](assets/images/BAchange_boreal.png "Change in species basal area")
-![Species basal area over time](assets/images/BA_timeseries_boreal_smooth.png "Species basal area over time")
+![Change in species basal area](hana-matsumoto.github.io/assets/images/BAchange_boreal.png "Change in species basal area")
+![Species basal area over time](hana-matsumoto.github.io/assets/images/BA_timeseries_boreal_smooth.png "Species basal area over time")
 ### Analysis results
 
 
