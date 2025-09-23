@@ -2,7 +2,6 @@
 layout: single
 permalink: /resume/
 title: ""
-toc: true
 ---
 # Skills
 ### Languages
