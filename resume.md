@@ -2,6 +2,7 @@
 layout: single
 permalink: /resume/
 title: ""
+classes: wide
 ---
 # Skills
 ### Languages
