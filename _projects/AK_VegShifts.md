@@ -1,7 +1,9 @@
 ---
-layout: single
 title: "How can predictive models be used to analyze vegetation changes in Alaska?"
 excerpt: "Leveraging random forest models and remotely sensed data to investigate how vegetation is changing in boreal Alaska"
+header:
+  teaser: /assets/images/python.png
+permalink: /projects/AK_VegShifts/
 ---
 This project focused on a predicting species vegetation density, scaling up real-world data using machine learning. The objective was to determine species-level changes of the boreal forests in Alaska from 2000 to 2024 as predicted by the machine learning models.
 
