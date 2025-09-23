@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /resume/
+title: ""
 ---
 # Experience
 
