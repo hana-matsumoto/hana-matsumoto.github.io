@@ -476,6 +476,7 @@ for (spp in species) {
 ```
 ## Results
 ### Random forest model performance
+
 | Species        | R<sup>2</sup> | RMSE |
 | -------------- | -------------- | ---- |
 | Black spruce   | 0.57           | 4.31 |
