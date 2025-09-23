@@ -13,7 +13,7 @@ Boreal Alaska has been dominated by conifer species, specifically that of black 
 This project focused on a predicting species vegetation density by scaling up real-world data using machine learning. The objective was to determine species-level changes of the boreal forests in Alaska from 2000 to 2024 as predicted by the machine learning models. 
 ## Methods
 This work leveraged geospatial data, time-series analysis and random forest models to analyze forest change. 
-### Data preperation
+### Data preparation
 I used the **Google Earth Engine platform** and its **Python API** to process and analyze remotely sensed data for a 25-year period to build out predictor variables for my random forest models.
 Example code for creating some of the predictor variables from remotely sensed data:
 ```python
@@ -476,12 +476,19 @@ for (spp in species) {
 ```
 ## Results
 ### Random forest model performance
-| Species       | R<sup>2</sup>  | RMSE |
-| ------------- | ---- | ---- |
-| Black spruce  | 0.57 | 4.31 |
-| White spruce  | 0.55 | 7.23 |
-| **Alaska birch**  | 0.70 | 5.21 |
-| Quaking aspen | 0.52 | 6.81 |
+| Species       | R<sup>2</sup>  | RMSE | 
+| ------------- | ---- | ---- | 
+| Black spruce  | 0.57 | 4.31 | 
+| White spruce  | 0.55 | 7.23 | 
+| **Alaska birch**  | 0.70 | 5.21 | 
+| Quaking aspen | 0.52 | 6.81 | 
+
+| Species        | R<sup>2</sup> | RMSE |
+| -------------- | -------------- | ---- |
+| Black spruce   | 0.57           | 4.31 |
+| White spruce   | 0.55           | 7.23 |
+| **Alaska birch** | 0.70         | 5.21 |
+| Quaking aspen  | 0.52           | 6.81 |
 
 ### Prediction results
 Snap shots of species basal area (Fig. 1) indicated that in general, black spruce and white spruce, the conifers, decreased over the last 25-years while Alaska birch, a deciduous species, increased.
