@@ -26,33 +26,12 @@ ee.Initialize()
 
 # %% Area of interest and topo data
 AK_boreal = ee.FeatureCollection('projects/ee-vegshiftsalaska/assets/boreal_AK')
-#AK_boreal = ee.FeatureCollection('projects/ee-vegshiftsalaska/assets/Dalton_Landis') 
 states = ee.FeatureCollection('TIGER/2016/States') 
 AK_landscape = states.filter(ee.Filter.eq('NAME', 'Alaska'))
 
 water_ds = ee.Image("JRC/GSW1_4/GlobalSurfaceWater")
 water_mask = water_ds.select('max_extent')
 non_water = water_mask.eq(0).reproject(crs='EPSG:3338', scale=30)
-
-# # Turn that raster into a vector of all non-water areas
-# non_water_vector = non_water.selfMask().reduceToVectors(
-#     geometryType='polygon',
-#     reducer=ee.Reducer.countEvery(),
-#     scale=30,
-#     geometry=AK_landscape.geometry(),  # clip to your area of interest
-#     maxPixels=1e10
-# )
-
-# # Intersect your feature collection with the non-water area
-# masked_features = AK_landscape.map(
-#     lambda feature: feature.intersection(non_water_vector.geometry(), ee.ErrorMargin(1))
-# )
-
-# AK_land_no_water = masked_features.map(
-#     lambda f: f.simplify(100)  # simplify by 100 meters
-# )
-
-# Map.addLayer(AK_land_no_water, {}, 'crop')
 
 Map = geemap.Map(center=[64, -152], zoom=5, basemap='Esri.WorldGrayCanvas')
 
@@ -64,17 +43,11 @@ aspect = ee.Terrain.aspect(topo_data.mosaic().reproject(crs='EPSG:4326', scale=3
 topo_layers = elevation.addBands(slope).addBands(aspect)
 Map.addLayer(elevation, {}, 'crop')
 # Ecoregions
-#ecoregions = ee.FeatureCollection('projects/ak-project-438916/assets/AK_ecoregions')
-#ecoregions_raster = ee.Image('projects/ak-project-438916/assets/AK_eco_raster')
 ecoregions_raster = ee.Image('projects/ak-project-438916/assets/eco_int')
 eco_raster = ecoregions_raster.select('b1').rename('ecoregion').toFloat()
 
-#Map.addLayer(ecoregions_raster, {}, 'eco AK')
-# Map.addLayer(AK_landscape, {}, 'AK')
-
 # %% time range of interest
-#years = ee.List.sequence(2000, 2000)
-years = ee.List.sequence(2000, 2017).remove(2016)
+years = ee.List.sequence(2000, 2024)
 year_info = years.size().getInfo()
 year_info
 
@@ -98,7 +71,6 @@ def scale_and_offset(img):
     return img_scaled
 
 # %% Landsat sensor corrections and cloud masks
-
 def cloud_mask_landsat8(img):
     quality_band = img.select('pixel_qa')
     dilated_cloud = (1 << 1)
@@ -187,7 +159,6 @@ def get_landsat_collection_sr(sensor):
     return collection_filtered_without_date
 
 # %% Iterate
-#year = 2001
 for i in range(year_info):
     year = years.get(i).getInfo()
     #mtbs for respective year
@@ -332,69 +303,28 @@ for (spp in species) {
   pv_dataframe_spp_fin <- pv_dataframe_spp %>%
    dplyr::select(-49) 
 
-  #check data types of columns
-   #str(pv_dataframe_spp_fin)
+  # check data types of columns
+  # str(pv_dataframe_spp_fin)
   points_vect <- vect(pv_dataframe_spp_fin, geom = c("x", "y"), crs = "EPSG:4326")
 
-  # Step 2: Reproject to new CRS (e.g., WGS84)
+  # Reproject to new CRS (e.g., WGS84)
   points_proj <- project(points_vect, "EPSG:3338")
 
-  # Step 3: Extract new coordinates and combine with original attributes
+  # Extract new coordinates and combine with original attributes
   coords <- crds(points_proj)
   pv_dataframe_spp_proj <- cbind(as.data.frame(points_proj), y = coords[,1], x = coords[,2])
   #write.csv(pv_dataframe_spp_proj, paste0("Data/Output/GEE/pred_vars_", spp, ".csv"), row.names = F)
   
-  #split into training and testing
+  # split into training and testing
   set.seed(123)
-  #data_sf <- st_as_sf(pv_dataframe_spp_proj, coords = c("x", "y"), crs = "EPSG:3338") # for spatial autocorrelation
   data_split <- initial_split(pv_dataframe_spp_proj, prop = 0.95, strata = BA)
   rm(pv_dataframe_spp, pv_dataframe_spp_fin)
   gc()
   
   train_data <- training(data_split)
   test_data  <- testing(data_split)
-  
-  # test spatial autocorrelation
-  # Ensure your training data is an sf object
-  # train_sf <- train_data  # already an sf object with geometry
-  # 
-  # # Extract coordinates
-  # coords <- st_coordinates(train_sf)
-  # 
-  # coords_jittered <- jitter(st_coordinates(train_sf), factor = 0.0001)
-  # 
-  # # Use jittered coordinates to build neighbors
-  # k_neigh <- knearneigh(coords_jittered, k = 8)
-  # nb <- knn2nb(k_neigh)
-  # lw <- nb2listw(nb, style = "W")
-  # 
-  # # Run Moran's I test
-  # moran_test <- moran.test(train_sf$BA, lw)
-  # moran_test$species <- spp
-  # moran_test$time <- "before"
-  # 
-  # # Prepare sf object
-  # sf_data <- train_data  # already sf, EPSG:3338
-  # 
-  # # Generate spatial blocks
-  # set.seed(123)
-  # spatial_cv <- cv_spatial(
-  #   x = sf_data,
-  #   k = 10,                  # Number of folds
-  #   size = 50000,            # Spatial block size in meters (adjust for your region)
-  #   selection = "random"    # "random", "systematic", or "noncontiguous"
-  # )
-  # 
-  # Assign fold IDs back to the data
-  # sf_data$folds <- spatial_cv$folds_ids
-  # 
-  # Convert into a tidymodels-compatible resampling object
-  # v_folds_spatial <- group_vfold_cv(sf_data, group = folds)
 
   v_folds <- vfold_cv(train_data, v =10, strata = BA)
-  # Spatial autocorrelation
-  # v_folds <- spatial_block_cv(data_sf, method = "random", cellsize = 100000, v=10)
-  # v_folds <- spatial_clustering_cv(data_sf, v=10)
   
   rf_mod <- rand_forest(mtry = tune(), min_n = tune(), trees = tune()) %>%
     set_engine("ranger", importance = 'permutation', write.forest = TRUE) %>%
@@ -410,7 +340,7 @@ for (spp in species) {
     add_model(rf_mod)%>%
     add_recipe(rf_recipe)
   
-  # TUNE NEW
+  # TUNE
   reg_grid <- grid_space_filling(
     mtry(range = c(5, 30)),         # Number of predictors to try at each split
     min_n(range = c(1, 20)),        # Minimum number of observations in a node
@@ -427,7 +357,7 @@ for (spp in species) {
   rf_best <- rf_tune %>% 
     select_best(metric = 'rmse')
   
-  #last workflow
+  # last workflow
   final_rf_workflow <- finalize_workflow(rf_workflow, rf_best)
   
   # last fit
@@ -463,9 +393,10 @@ for (spp in species) {
   vip_df$species <- spp
   vip_metrics <- rbind(vip_metrics, vip_df)
   
-  #write.csv(final_metrics, "Data/Output/RF/Results/rf_final_mets.csv", row.names = F)
-  #write.csv(vip_metrics, "Data/Output/RF/Results/vip_mets.csv", row.names = F)
+  write.csv(final_metrics, "Data/Output/RF/Results/rf_final_mets.csv", row.names = F)
+  write.csv(vip_metrics, "Data/Output/RF/Results/vip_mets.csv", row.names = F)
 
+# Make prediction maps for each species and year
   for (year in year_info) {
   
     files_rast <- list.files("Data/Output/GEE/Composites/",
@@ -524,7 +455,7 @@ for (spp in species) {
       
         # Save
         comp_name <- sub(paste0(".*boreal-comp-", year, "-([^.]+)\\.tif$"), "\\1", file_path)
-        out_name <- paste0("Data/Output/RF/Maps/new/newest/", spp, "_", year, "_", comp_name, "_chunk_", i, ".tif")
+        out_name <- paste0("Data/Output/RF/Maps/", spp, "_", year, "_", comp_name, "_chunk_", i, ".tif")
         writeRaster(pred_rast, out_name, overwrite = TRUE)
       
         print(paste("Processed chunk", i))
@@ -535,7 +466,7 @@ for (spp in species) {
 
       readStop(raster_with_latlon)
       
-      #writeRaster(preds_rast, paste0("Data/Output/RF/Maps/", year, "_pred_map_newclim", spp, ".tif"), overwrite=TRUE)
+      #writeRaster(preds_rast, paste0("Data/Output/RF/Maps/", year, "_pred_map", spp, ".tif"), overwrite=TRUE)
       
       }
   }
