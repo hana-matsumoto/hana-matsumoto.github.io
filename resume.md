@@ -43,5 +43,7 @@ title: ""
 
 # Education
 **M.S. Environmental Studies**, University of Oregon — *2025*
+
 **M.S. Geography**, University of Oregon — *2025*
+
 **B.S. Environmental Science**, Kent State University — *2021* (*Magna cum laude*)
