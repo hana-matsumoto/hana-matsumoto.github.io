@@ -3,6 +3,13 @@ layout: single
 permalink: /resume/
 title: ""
 ---
+# Skills
+Proficient in R | Experience with Python, SQL
+## Tech Stack
+RStudio, Google Earth Engine, Visual Studio Code, GitHub, Adobe Photoshop, Adobe Illustrator, ESRI ArcGIS, QGIS, Blender, Jupyter Notebook
+
+---
+
 # Experience
 ### NSF Graduate Research Fellow
 **University of Oregon** · *September 2022 – September 2025 · Hybrid*
@@ -47,3 +54,10 @@ title: ""
 **M.S. Geography**, University of Oregon — *2025*
 
 **B.S. Environmental Science**, Kent State University — *2021* (*Magna cum laude*)
+
+---
+
+# Activities
+-	Mentor to undergraduate students in data science and STEM fields, providing guidance on career development, research interests and graduate school preparation.
+-	Volunteer and advocate for connecting people with disabilities to nature and adaptive sports.
+
