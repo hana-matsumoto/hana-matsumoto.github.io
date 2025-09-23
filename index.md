@@ -11,17 +11,16 @@ Transforming complex data into actionable insights through machine learning, sta
 
 Passionate about uncovering patterns in data and turning them into real-world solutions.
 
-💻 **Skills:** R • Python • Google Earth Engine • ESRI | QGIS • SQL  
+### 💻 Skills:
+R • Python • Google Earth Engine • ESRI | QGIS • SQL  
 
 ---
-
 ### Interests
 - Spatial Statistics  
 - Machine Learning  
 - Data Visualization  
 
 ---
-
 ### Education
 **M.S. Environmental Studies**, University of Oregon — *2025*  
 **M.S. Geography**, University of Oregon — *2025*  
