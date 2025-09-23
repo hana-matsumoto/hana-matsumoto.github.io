@@ -476,13 +476,6 @@ for (spp in species) {
 ```
 ## Results
 ### Random forest model performance
-| Species       | R<sup>2</sup>  | RMSE | 
-| ------------- | ---- | ---- | 
-| Black spruce  | 0.57 | 4.31 | 
-| White spruce  | 0.55 | 7.23 | 
-| **Alaska birch**  | 0.70 | 5.21 | 
-| Quaking aspen | 0.52 | 6.81 | 
-
 | Species        | R<sup>2</sup> | RMSE |
 | -------------- | -------------- | ---- |
 | Black spruce   | 0.57           | 4.31 |
