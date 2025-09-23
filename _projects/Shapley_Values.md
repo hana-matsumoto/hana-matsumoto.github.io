@@ -11,5 +11,7 @@ toc: true
 ## What are Shapley values?
 
 ## How can Shapley values be used for explaining machine learning model outcomes?
+![Shapley values figure explained](https://hana-matsumoto.github.io/assets/images/shapley_val_explained.png "How to read a Shapley value graph")
 
 ## Example of Shapley values being used to explain random forest model results
+![Shapley values figure](https://hana-matsumoto.github.io/assets/images/Top3_SHAP_boreal_allPN_new.png "Top three Shapley values for predicting species basal area")
