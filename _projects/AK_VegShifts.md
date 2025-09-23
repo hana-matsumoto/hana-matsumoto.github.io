@@ -8,7 +8,8 @@ header:
 permalink: /projects/AK_VegShifts/
 toc: true
 ---
-This project focused on a predicting species vegetation density, scaling up real-world data using machine learning. The objective was to determine species-level changes of the boreal forests in Alaska from 2000 to 2024 as predicted by the machine learning models.
+Boreal Alaska has been dominated by conifer species, specifically that of black spruce for the last 5,000-6,000 years. White spruce, also a conifer is dominant with smaller quantities of Alaska birch and quaking aspen which are deciduous hardwood species. However, climate change is causing rapid changes to wildfire regimes and vegetation.
+This project focused on a predicting species vegetation density by scaling up real-world data using machine learning. The objective was to determine species-level changes of the boreal forests in Alaska from 2000 to 2024 as predicted by the machine learning models. 
 ## Methods
 This work leveraged geospatial data, time-series analysis and random forest models to analyze forest change. 
 ### Data preperation
@@ -474,13 +475,22 @@ for (spp in species) {
 ```
 ## Results
 ### Random forest model performance
+| Species       | R<sup>2</sup>  | RMSE |
+| ------------- | ---- | ---- |
+| Black spruce  | 0.57 | 4.31 |
+| White spruce  | 0.55 | 7.23 |
+| **Alaska birch**  | 0.70 | 5.21 |
+| Quaking aspen | 0.52 | 6.81 |
 
 ### Prediction results
-The time-series analysis (Figure X) revealed that vegetation change was often species-specific, challenging the common ecological assumption that species within a functional group (e.g., all conifers) behave similarly. Black spruce was found to be the primary driver of conifer decline, while Alaska birch drove the increase in deciduous trees. This analysis showed that the model's predictions of forest change at the species level were more accurate than those at the functional group level.
-![Change in species basal area](https://hana-matsumoto.github.io/assets/images/BAchange_boreal.png "Change in species basal area")
-![Species basal area over time](https://hana-matsumoto.github.io/assets/images/BA_timeseries_boreal_smooth.png "Species basal area over time")
-### Analysis results
+Snap shots of species basal area (Fig. 1) indicated that in general, black spruce and white spruce, the conifers, decreased over the last 25-years while Alaska birch, a deciduous species, increased.
+![Change in species basal area](https://hana-matsumoto.github.io/assets/images/BAchange_boreal_stats_maps.png "Figure 1: Change in species basal area in 2000 and 2024")
+However, the time-series analysis (Fig. 2) revealed different patterns that weren't so linear as the boxplots suggested. Instead, we can see how black spruce was the primary driver of conifer declines, while Alaska birch drove the increase in deciduous trees. White spruce and quaking aspen had much more variable trends throughout time with little discernible pattern whether the species was experiencing an increase or decrease.
+![Species basal area over time](https://hana-matsumoto.github.io/assets/images/BA_timeseries_boreal_smooth.png "Figure 2: Species basal area over time (2000 -2024)")
 
+### Analysis results
+The different patterns of species basal area could be attributed to each species' response to wildfire. Though all species are fire adapted to some extent, the intensification of the wildfire regime in the past several decades due to climate change is causing a change in species reactions and thus the composition of boreal Alaska. Black spruce mainly decreased in basal area due to adverse reactions to increases in wildfire as evidenced by the majority of its losses occurring under wildfire (Fig. 3). The opposite is true for Alaska birch, where its gains mainly occurred under wildfire, explaining why Alaska birch increased in basal area. White spruce and quaking aspen were different in that their basal areas were less influenced by wildfire, indicating that there are other factors determining their changes in basal area which explains their more variable basal are patterns over the last 25 years.
+![Losses and gains of species basal area in relation to wildfire](https://hana-matsumoto.github.io/assets/images/BA_fire_graph_sumBA_eco-01.png "Figure 3: Losses and gains of species basal area in relation to wildfire")
 
 ## Conclusions
 This research highlights the importance of species-level analysis in ecological modeling. The findings suggest that models that aggregate species into functional groups may miss critical trends and overestimate changes. The use of remote sensing and time-series analysis provided a powerful method for validating complex model outputs and provided a more nuanced understanding of forest dynamics.
