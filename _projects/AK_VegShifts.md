@@ -9,11 +9,10 @@ permalink: /projects/AK_VegShifts/
 toc: true
 ---
 This project focused on a predicting species vegetation density, scaling up real-world data using machine learning. The objective was to determine species-level changes of the boreal forests in Alaska from 2000 to 2024 as predicted by the machine learning models.
-
 ## Methods
 This work leveraged geospatial data, time-series analysis and random forest models to analyze forest change. 
-
-I used the Google Earth Engine platform and its Python API to process and analyze remotely sensed data for a 25-year period to build out predictor variables for my random forest models.
+### Data preperation
+I used the **Google Earth Engine platform** and its **Python API** to process and analyze remotely sensed data for a 25-year period to build out predictor variables for my random forest models.
 Example code for creating some of the predictor variables from remotely sensed data:
 ```python
 # %% Start session
@@ -267,8 +266,8 @@ for i in range(year_info):
        fileFormat='CSV')
     task_sampling.start()
 ```
-
-These predictor variables were then used in the training and tuning of random forest models which were used to make spatially complete vegetation density maps in R.
+### Random forest models
+These predictor variables were then used in the training and tuning of **random forest models** which were used to make spatially complete vegetation density maps in **R**.
 Example R code of training and tuning random forest models:
 ```r
 species = c('BlackSpruce', 'WhiteSpruce', 'QAspen', 'AKBirch')
@@ -543,9 +542,14 @@ for (spp in species) {
 }# end loop
 ```
 ## Results
-The time-series analysis (Figure X) revealed that vegetation change was often species-specific, challenging the common ecological assumption that species within a functional group (e.g., all conifers) behave similarly. Black spruce was found to be the primary driver of conifer decline, while Alaska birch drove the increase in deciduous trees. This analysis showed that the model's predictions of forest change at the species level were more accurate than those at the functional group level.
+### Random forest model performance
 
-![Alt text for the image](assets/images/image.jpg "Optional Title")
+### Prediction results
+The time-series analysis (Figure X) revealed that vegetation change was often species-specific, challenging the common ecological assumption that species within a functional group (e.g., all conifers) behave similarly. Black spruce was found to be the primary driver of conifer decline, while Alaska birch drove the increase in deciduous trees. This analysis showed that the model's predictions of forest change at the species level were more accurate than those at the functional group level.
+![Change in species basal area](assets/images/BAchange_boreal.png "Change in species basal area")
+![Species basal area over time](assets/images/BA_timeseries_boreal_smooth.png "Species basal area over time")
+### Analysis results
+
 
 ## Conclusions
 This research highlights the importance of species-level analysis in ecological modeling. The findings suggest that models that aggregate species into functional groups may miss critical trends and overestimate changes. The use of remote sensing and time-series analysis provided a powerful method for validating complex model outputs and provided a more nuanced understanding of forest dynamics.
