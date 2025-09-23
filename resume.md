@@ -4,8 +4,9 @@ permalink: /resume/
 title: ""
 ---
 # Skills
+### Languages
 Proficient in R | Experience with Python, SQL
-## Tech Stack
+### Tech Stack
 RStudio, Google Earth Engine, Visual Studio Code, GitHub, Adobe Photoshop, Adobe Illustrator, ESRI ArcGIS, QGIS, Blender, Jupyter Notebook
 
 ---
