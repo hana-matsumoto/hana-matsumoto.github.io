@@ -4,7 +4,7 @@ layout: single
 classes: wide
 excerpt: "Leveraging random forest models and remotely sensed data to investigate how vegetation is changing in boreal Alaska"
 header:
-  teaser: /assets/images/python.png
+  teaser: /assets/images/BA_timeseries_boreal_smooth.png
 permalink: /projects/AK_VegShifts/
 toc: true
 ---
