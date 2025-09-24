@@ -16,7 +16,7 @@ Shapley values, coined by [Lloyd Shapley](https://apps.dtic.mil/sti/tr/pdf/AD060
 
 They are particularly useful in cases where contributions by players are unequal. In this way, Shapley values are great for many applications such as business, marketing or in the example I provide later, for interpreting machine learning model outcomes.
 
-### How can Shapley values be used for explaining machine learning model outcomes?
+## How can Shapley values be used for explaining machine learning model outcomes?
 In the case of machine learning, the "game" would be the prediction task for one instances of the dataset, the "players" would be the features or predictor variables and the "total payout" is the predicition made.
 
 ### Example of Shapley values being used to explain random forest model results
