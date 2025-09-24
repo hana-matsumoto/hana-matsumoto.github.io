@@ -19,9 +19,11 @@ The primary goal of this project was to **simulate the complex vegetation dynami
 ## Simulation modeling
 This study utilized the [LANDIS-II forest landscape model](https://www.landis-ii.org/) to simulate forest dynamics 285 years into the future in Siberia. Four different study landscapes called the tundra, northern taiga, middle taiga and southern taiga (Fig. 1) were defined based on the distinct differences in vegetation composition between the four landscapes.
 ![](https://hana-matsumoto.github.io/assets/images/Figure1.png)
+*Figure 1: Study landscapes*
 
 These landscapes were simulated under three climate scenarios including a historical baseline scenario (little to no climate change), an intermediate climate change scenario and an extreme climate chanage scenario (Fig. 2) and exposed to three simulated disturbances; wildfire, wind, and timber harvesting.
 ![](https://hana-matsumoto.github.io/assets/images/Figure2.png)
+*Figure 2: Differences between climate scenarios*
 
 ## Analysis
 Analysis to summarize how the landscapes in Siberia changed in forest composition over the simulation period was conducted (Fig. 3). From this analysis, the primary simulated vegetation changes from each landscape were further investiagted using random forest models to determine the potential drivers behind such changes.
@@ -51,14 +53,28 @@ I developed and implemented a series of 48 random forest classification models u
 |                    | Time since disturbance |
 
 
-1A key part of this process involved **feature engineering to translate these ecological variables into a format suitable for the models**. The performance of these predictive models was rigorously evaluated using AUC-ROC and accuracy metrics and importance values were extracted from each trained model. These importance values served as the interpretative method for deducing drivers of vegetation change.
+A key part of this process involved **feature engineering to translate these ecological variables into a format suitable for the models**. The performance of these predictive models was rigorously evaluated using AUC-ROC and accuracy metrics and importance values were extracted from each trained model. These importance values served as the interpretative method for deducing drivers of vegetation change.
 
 # Results
 ## Simulation modeling results
 ![](https://hana-matsumoto.github.io/assets/images/Figure4.png)
+*Figure 3: Changes in percent of vegetation types across the four landscapes for a 280-year simulation period, under a historical climate, intermediate and extreme climate change scenario. Percentages based on the number of hectares of each forest type*
 
 ## Random forest classification model results
-The Random Forest models accurately predicted vegetation composition and species distribution with high performance metrics (average accuracy over 82% and AUC-ROC over 90%). The model's variable importance analysis (Fig. 4) revealed that wildfire was the most significant driver of change, with fire activity projected to nearly double under warming scenarios. The models also quantified the projected effects of climate change on commercially valuable timber, showing significant increases in harvestable areas in the tundra (3,802% increase) and a decrease in the southern taiga (54-66% decrease), as detailed in Figures 11 and 12.
+
+|               | Historical       |              | Intermediate     |              | Extreme         |              |
+|---------------|------------------|--------------|------------------|--------------|-----------------|--------------|
+|               | R<sup>2</sup>    | AUC-ROC      | R<sup>2</sup>    | AUC-ROC      | R<sup>2</sup>   | AUC-ROC      |
+| Tundra        | 0.99             | 99.2%        | 0.94             | 97.6%        | 0.99            | 99.98%       |
+| Northern taiga| 0.97             | 95.9%        | 0.68             | 73.9%        | 0.69            | 75.4%        |
+| Middle taiga  | 0.82             | 90.0%        | 0.68             | 77.1%        | 0.68            | 74.5%        |
+| Southern taiga| 0.77             | 85.5%        | 0.67             | 74.8%        | 0.74            | 79.6%        |
+
+The random forest models accurately predicted vegetation composition and species distribution with high performance metrics (average accuracy over 82% and AUC-ROC over 90%). 
+
+The model's variable importance analysis (Fig. 4) revealed that wildfire was the most significant driver of change.
+![](https://hana-matsumoto.github.io/assets/images/Top3Vars_noncond.png)
+*Figure 4: Top three variables foir classifying vegetation determined by their average variable importance*
 
 # Conclusions
 The findings demonstrate the effectiveness of using a data-driven machine learning approach to model and predict complex ecological systems. This research provides valuable, quantifiable insights for environmental management and resource forecasting by identifying the key drivers of change and predicting their impact on boreal forests at a landscape scale.
