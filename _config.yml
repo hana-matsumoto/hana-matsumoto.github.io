@@ -331,3 +331,5 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+
+css: "/assets/css/main.css"
