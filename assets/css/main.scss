@@ -8,6 +8,6 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-:root {
-  --background-color: #a3cada;  // your custom color
+html, body, .page, .site, .page__content {
+  background-color: #c1ced9 !important;
 }
