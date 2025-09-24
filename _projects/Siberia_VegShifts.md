@@ -65,10 +65,10 @@ A key part of this process involved **feature engineering to translate these eco
 |               | Historical       |              | Intermediate     |              | Extreme         |              |
 |---------------|------------------|--------------|------------------|--------------|-----------------|--------------|
 |               | R<sup>2</sup>    | AUC-ROC      | R<sup>2</sup>    | AUC-ROC      | R<sup>2</sup>   | AUC-ROC      |
-| Tundra        | 0.99             | 99.2%        | 0.94             | 97.6%        | 0.99            | 99.98%       |
-| Northern taiga| 0.97             | 95.9%        | 0.68             | 73.9%        | 0.69            | 75.4%        |
-| Middle taiga  | 0.82             | 90.0%        | 0.68             | 77.1%        | 0.68            | 74.5%        |
-| Southern taiga| 0.77             | 85.5%        | 0.67             | 74.8%        | 0.74            | 79.6%        |
+| Tundra        | 0.99             | 0.99        | 0.94             | 0.98         | 0.99            | 0.99       |
+| Northern taiga| 0.97             | 0.96        | 0.68             | 0.74         | 0.69            | 0.75        |
+| Middle taiga  | 0.82             | 0.90        | 0.68             | 0.77         | 0.68            | 0.75        |
+| Southern taiga| 0.77             | 0.86        | 0.67             | 0.75         | 0.74            | 0.80        |
 
 The random forest models accurately predicted vegetation composition and species distribution with high performance metrics (average accuracy over 82% and AUC-ROC over 90%). 
 
