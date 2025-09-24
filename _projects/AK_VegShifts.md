@@ -496,7 +496,9 @@ However, the time-series analysis revealed different patterns that weren't so li
 *Average species basal area over time (2000 -2024)*
 
 ### Analysis results
-The different patterns of species basal area could be attributed to each species' response to wildfire. Though all species are fire adapted to some extent, the intensification of the wildfire regime in the past several decades due to climate change is causing a change in species reactions and thus the composition of boreal Alaska. Black spruce mainly decreased in basal area due to adverse reactions to increases in wildfire as evidenced by the majority of its losses occurring under wildfire. The opposite is true for Alaska birch, where its gains mainly occurred under wildfire, explaining why Alaska birch increased in basal area. 
+The different patterns of species basal area could be attributed to each species' response to wildfire. Though all species are fire adapted to some extent, the intensification of the wildfire regime in the past several decades due to climate change is causing a change in species reactions and thus the composition of boreal Alaska. 
+
+Black spruce mainly decreased in basal area due to adverse reactions to increases in wildfire as evidenced by the majority of its losses occurring under wildfire. The opposite is true for Alaska birch, where its gains mainly occurred under wildfire, explaining why Alaska birch increased in basal area. 
 ![Losses and gains of species basal area in relation to wildfire](https://hana-matsumoto.github.io/assets/images/BA_fire_BS_AKB.png "Losses and gains of species basal area in relation to wildfire")
 *Losses and gains of species basal area in relation to wildfire*
 
