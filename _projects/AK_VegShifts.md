@@ -17,7 +17,8 @@ This project focused on a predicting species vegetation density by scaling up re
 This work leveraged geospatial data, time-series analysis and random forest models to analyze forest change. 
 ### Data preparation
 I used the **Google Earth Engine platform** and its **Python API** to process and analyze remotely sensed data for a 25-year period to build out predictor variables for my random forest models.
-Example code for creating some of the predictor variables from remotely sensed data:
+
+#### Example code for creating some of the predictor variables from remotely sensed data:
 ```python
 # %% Start session
 import ee
@@ -243,7 +244,8 @@ for i in range(year_info):
 ```
 ### Random forest models
 These predictor variables were then used in the training and tuning of **random forest models** which were used to make spatially complete vegetation density maps in **R**.
-Example R code of training and tuning random forest models:
+
+#### Example R code of training and tuning random forest models:
 ```r
 species = c('BlackSpruce', 'WhiteSpruce', 'QAspen', 'AKBirch')
 
