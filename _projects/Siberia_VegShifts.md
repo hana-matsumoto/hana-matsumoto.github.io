@@ -5,7 +5,10 @@ classes: wide
 excerpt: "Analyzing simulation model output using random forest models and variable importance to investigate future changes in Siberian forests."
 header:
   teaser: /assets/images/Top3Vars_noncond.png
+  overlay_image: /assets/images/python.png
+  overlay_filter: rgba(0, 0, 0, 0.5)
 permalink: /projects/Siberia_VegShifts/
+author_profile: true
 toc: true
 ---
 The rapid warming of high-latitude ecosystems poses a significant risk to the world's largest terrestrial carbon stock in boreal forests. This research addresses the critical need to understand how these ecosystems will respond to climate change. 
