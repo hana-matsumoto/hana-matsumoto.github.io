@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /resume/
+author_profile: true
 title: ""
 ---
 # Skills
