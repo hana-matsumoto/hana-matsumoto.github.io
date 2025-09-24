@@ -1,5 +1,5 @@
 ---
-title: "Shapley values as a tool for interpreting machine learning model outcomes."
+title: "Shapley values as a tool for interpreting machine learning model outcomes"
 layout: single
 classes: wide
 excerpt: "Shapley values can be a powerful technique for uncovering meaning behind machine learning models"
