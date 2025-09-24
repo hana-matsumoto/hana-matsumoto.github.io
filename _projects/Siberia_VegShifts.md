@@ -52,14 +52,16 @@ I developed and implemented a series of 48 random forest classification models u
 |                    | Time since disturbance |
 
 
-A key part of this process involved **feature engineering to translate these ecological variables into a format suitable for the models**. The performance of these predictive models was rigorously evaluated using AUC-ROC and accuracy metrics and importance values were extracted from each trained model. These importance values served as the interpretative method for deducing drivers of vegetation change.
+A key part of this process involved **feature engineering to translate these ecological variables into a format suitable for the models**. The performance of these predictive models was rigorously evaluated using AUC-ROC and accuracy metrics and importance values were extracted from each trained model. These importance values served as the interpretative method for deducing the potential drivers of vegetation change observed in the simulation models.
 
 # Results
 ## Simulation modeling results
+The primary shifts of vegetation that occurred under climate change conditions was that of the rather substantial shift from a **tundra dominated historically by Arctic moss and grass (light blue)** to a tundra **invaded and taken over by conifer species (dark and light green) under intermediate and extreme climate change conditions**. In the **three taiga landscapes**, the primary shift of vegetation was that of the **reduction of the historically dominant conifer species (dark and light green)** to landscapes **more heavily dominated by deciduous species (brown) under intermediate and extreme climate change conditions**.
 ![](https://hana-matsumoto.github.io/assets/images/Figure4.png)
 *Figure 3: Changes in percent of vegetation types across the four landscapes for a 280-year simulation period, under a historical climate, intermediate and extreme climate change scenario. Percentages based on the number of hectares of each forest type*
 
 ## Random forest classification model results
+### Model performance
 
 |               | Historical       |              | Intermediate     |              | Extreme         |              |
 |---------------|------------------|--------------|------------------|--------------|-----------------|--------------|
@@ -71,6 +73,7 @@ A key part of this process involved **feature engineering to translate these eco
 
 The random forest models accurately predicted vegetation composition and species distribution with high performance metrics (average accuracy over 82% and AUC-ROC over 90%). 
 
+### Variable importance
 The model's variable importance analysis (Fig. 4) revealed that wildfire was the most significant driver of change.
 ![](https://hana-matsumoto.github.io/assets/images/Top3Vars_noncond.png)
 *Figure 4: Top three variables foir classifying vegetation determined by their average variable importance*
