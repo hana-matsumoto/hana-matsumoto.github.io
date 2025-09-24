@@ -22,7 +22,7 @@ RStudio, Google Earth Engine, Visual Studio Code, GitHub, Adobe Photoshop, Adobe
 - **Developed and validated 48 Random Forest classification models** to predict vegetation shifts across four 10,000 km² landscapes, achieving an average accuracy of over 82% and an AUC-ROC of over 90%. This analysis helped identify key environmental drivers of change over a 280-year simulation period.  
 - **Engineered and tuned regression models** to predict vegetation density, analyzing the relative importance of over 40 different variables including climate, disturbance type, and topography using Shapley values.  
 - **Led data science projects using R** and its ***'tidymodels'*** and ***'ranger'*** packages and **Google Earth Engine’s Python API** and its ***'scikit-learn'*** package to process and analyze large and complex datasets.  
-- **Conducted advanced statistical analysis in R** and created impactful visualizations using ***ggplot2***, **Adobe**, and **GIS software**, presenting results at six national conferences.
+- **Conducted advanced statistical analysis in R** and created impactful visualizations using ***'ggplot2'***, **Adobe**, and **GIS software**, presenting results at six national conferences.
 - **Utilized remotely sensed data** from Landsat imagery and Google Earth Engine to create a 25-year time-series analysis on forest changes, predicting species-specific basal area trends.  
 - Secured **$156,850** in research funding through competitive proposal writing and project scoping.  
 
