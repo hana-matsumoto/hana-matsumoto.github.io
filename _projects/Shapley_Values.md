@@ -12,7 +12,7 @@ permalink: /projects/Shapley_Values/
 toc: true
 ---
 ## What are Shapley values?
-Shapley values, which are named after Lloyd Shapley, are based on cooperative game theory and are used to calculate the payout of a player based on their contribution to the total payout of the game while considering interactions among the players. In other words, Shapley values are the average expected marginal contribution of one player after all possible combinations have been considered. 
+Shapley values, coined by [Lloyd Shapley](https://apps.dtic.mil/sti/tr/pdf/AD0604084.pdf), are based on cooperative game theory and are used to calculate the payout of a player based on their contribution to the total payout of the game while considering interactions among the players. In other words, Shapley values are the average expected marginal contribution of one player after all possible combinations have been considered. 
 
 They are particularly useful in cases where contributions by players are unequal. In this way, Shapley values are great for many applications such as business, marketing or in the example I provide later, for interpreting machine learning model outcomes.
 
@@ -38,3 +38,4 @@ From this graph, I was able to make a couple of different observations about wha
 https://christophm.github.io/interpretable-ml-book/shapley.html
 https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html#
 https://www.aidancooper.co.uk/a-non-technical-guide-to-interpreting-shap-analyses/?xgtab&
+Shapley, Lloyd S. 1953. “A Value for n-Person Games.” In Contributions to the Theory of Games Ii, edited by Harold W. Kuhn and Albert W. Tucker, 307–17. Princeton: Princeton University Press.
