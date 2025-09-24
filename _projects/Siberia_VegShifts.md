@@ -71,7 +71,7 @@ The primary shifts of vegetation that occurred under climate change conditions w
 | Middle taiga  | 0.82             | 0.90        | 0.68             | 0.77         | 0.68            | 0.75        |
 | Southern taiga| 0.77             | 0.86        | 0.67             | 0.75         | 0.74            | 0.80        |
 
-The random forest models accurately predicted vegetation composition and species distribution with high performance metrics (average accuracy over 82% and AUC-ROC over 90%). 
+The random forest models accurately predicted vegetation composition and species distribution with high performance metrics (average accuracy - R<sup>2</sup> over 80% and AUC-ROC over 85%). 
 
 ### Variable importance
 The model's variable importance analysis (Fig. 4) revealed that wildfire was the most significant driver of change.
