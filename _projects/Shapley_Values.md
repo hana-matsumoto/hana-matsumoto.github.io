@@ -20,13 +20,15 @@ They are particularly useful in cases where contributions by players are unequal
 In the case of machine learning, the "game" would be the prediction task for one instances of the dataset, the "players" would be the features or predictor variables and the "total payout" is the predicition made.
 
 ### Example of Shapley values being used to explain random forest model results
-For example, I built a random forest regression model that predicted vegetation density (basal area - BA) for different tree species across boreal Alaska from 2000 to 2024. These models showed that from 2000 to 2024, black spruce gradually lost density while Alaska birch gradually gained denisty (Fig. 1). White spruce and quaking aspen had more variable trends in density throughout the last 25 years. These patterns were interesting as common thought in boreal Alaska is that conifers (black spruce and white spruce) are decreasing and deciduous hardwood species (Alaska birch and quaking aspen) are increasing due to climate change and its impact on the wildfire regimes.
+For example, I built a random forest regression model that predicted vegetation density (basal area - BA) for different tree species across boreal Alaska from 2000 to 2024. These models showed that from 2000 to 2024, black spruce gradually lost density while Alaska birch gradually gained denisty (Fig. 1). White spruce and quaking aspen had more variable trends in density throughout the last 25 years.
 ![Average change in species density from 2000 to 2024](https://hana-matsumoto.github.io/assets/images/BA_timeseries_boreal_smooth.png "Average change in species density from 2000 to 2024")
 *Figure 1: Average change in species density from 2000 to 2024*
 
-Therefore, I was interested in determining the contributions of the different predictor variables in predicting outcomes that resulted in losses and gains of vegetation density. To do this I determined sites that lost density vs. gained density from 2000 to 2024 and then calculated Shapley values using the *'iml'* package in R for each of those sites in 2000 and 2024. Using *'ggplot2'*, I created a popular Shapley graph known as a beeswarm graph to illustrate my results.
+These patterns were interesting as common thought in boreal Alaska is that conifers (black spruce and white spruce) are decreasing and deciduous hardwood species (Alaska birch and quaking aspen) are increasing due to climate change and its impact on the wildfire regimes.
 
-Beeswarm graphs are packed with a ton of information, revealing not just the relative importance of features, but their actual relationships with the predicted outcome. We can see how these types of graphs work in relation to my example below.
+Therefore, I was interested in **determining the contributions of the different predictor variables in predicting outcomes that resulted in losses and gains of vegetation density**. To do this I determined sites that lost density vs. gained density from 2000 to 2024 and then calculated Shapley values using the *'iml'* package in R for each of those sites in 2000 and 2024. Using *'ggplot2'*, I created a popular Shapley graph known as a beeswarm graph to illustrate my results.
+
+Beeswarm graphs are packed with a ton of information, **revealing not just the relative importance of features, but their actual relationships with the predicted outcome**. We can see how these types of graphs work in relation to my example below.
 ![Shapley values figure explained](https://hana-matsumoto.github.io/assets/images/shapley_val_explained.png "How to read a Shapley value graph")
 
 
@@ -36,6 +38,9 @@ From this graph, I was able to make a couple of different observations about wha
 
 ## References
 https://christophm.github.io/interpretable-ml-book/shapley.html
+
 https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html#
+
 https://www.aidancooper.co.uk/a-non-technical-guide-to-interpreting-shap-analyses/?xgtab&
+
 Shapley, Lloyd S. 1953. “A Value for n-Person Games.” In Contributions to the Theory of Games Ii, edited by Harold W. Kuhn and Albert W. Tucker, 307–17. Princeton: Princeton University Press.
