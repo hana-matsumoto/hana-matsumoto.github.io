@@ -487,18 +487,22 @@ for (spp in species) {
 | Quaking aspen  | 0.52           | 6.81 |
 
 ### Prediction results
-Snap shots of species basal area (Fig. 1) indicated that in general, black spruce and white spruce, the conifers, decreased over the last 25-years while Alaska birch, a deciduous species, increased.
-![Change in species basal area](https://hana-matsumoto.github.io/assets/images/BAchange_boreal_stats_maps.png "Figure 1: Change in species basal area in 2000 and 2024")
-*Figure 1: Change in species basal area in 2000 and 2024*
+Snap shots of species basal area indicated that in general, black spruce and white spruce, the conifers, decreased over the last 25-years while Alaska birch, a deciduous species, increased.
+![Change in species basal area](https://hana-matsumoto.github.io/assets/images/BAchange_boreal_stats_maps.png "Change in species basal area in 2000 and 2024")
+*Change in species basal area in 2000 and 2024*
 
-However, the time-series analysis (Fig. 2) revealed different patterns that weren't so linear as the boxplots suggested. Instead, we can see how black spruce was the primary driver of conifer declines, while Alaska birch drove the increase in deciduous trees. White spruce and quaking aspen had much more variable trends throughout time with little discernible pattern whether the species was experiencing an increase or decrease.
-![Species basal area over time](https://hana-matsumoto.github.io/assets/images/BA_timeseries_boreal_smooth.png "Figure 2: Species basal area over time (2000 -2024)")
-*Figure 2: Species basal area over time (2000 -2024)*
+However, the time-series analysis revealed different patterns that weren't so linear as the boxplots suggested. Instead, we can see how black spruce was the primary driver of conifer declines, while Alaska birch drove the increase in deciduous trees. White spruce and quaking aspen had much more variable trends throughout time with little discernible pattern whether the species was experiencing an increase or decrease.
+![Species basal area over time](https://hana-matsumoto.github.io/assets/images/BA_timeseries_boreal_smooth.png "Species basal area over time (2000 -2024)")
+*Average species basal area over time (2000 -2024)*
 
 ### Analysis results
-The different patterns of species basal area could be attributed to each species' response to wildfire. Though all species are fire adapted to some extent, the intensification of the wildfire regime in the past several decades due to climate change is causing a change in species reactions and thus the composition of boreal Alaska. Black spruce mainly decreased in basal area due to adverse reactions to increases in wildfire as evidenced by the majority of its losses occurring under wildfire (Fig. 3). The opposite is true for Alaska birch, where its gains mainly occurred under wildfire, explaining why Alaska birch increased in basal area. White spruce and quaking aspen were different in that their basal areas were less influenced by wildfire, indicating that there are other factors determining their changes in basal area which explains their more variable basal are patterns over the last 25 years.
-![Losses and gains of species basal area in relation to wildfire](https://hana-matsumoto.github.io/assets/images/BA_fire.png "Figure 3: Losses and gains of species basal area in relation to wildfire")
-*Figure 3: Losses and gains of species basal area in relation to wildfire*
+The different patterns of species basal area could be attributed to each species' response to wildfire. Though all species are fire adapted to some extent, the intensification of the wildfire regime in the past several decades due to climate change is causing a change in species reactions and thus the composition of boreal Alaska. Black spruce mainly decreased in basal area due to adverse reactions to increases in wildfire as evidenced by the majority of its losses occurring under wildfire. The opposite is true for Alaska birch, where its gains mainly occurred under wildfire, explaining why Alaska birch increased in basal area. 
+![Losses and gains of species basal area in relation to wildfire](https://hana-matsumoto.github.io/assets/images/BA_fire_BS_AKB.png "Losses and gains of species basal area in relation to wildfire")
+*Losses and gains of species basal area in relation to wildfire*
+
+White spruce and quaking aspen were different in that their basal areas were less influenced by wildfire, indicating that there are other factors determining their changes in basal area which explains their more variable basal are patterns over the last 25 years.
+![Losses and gains of species basal area in relation to wildfire](https://hana-matsumoto.github.io/assets/images/BA_fire_WS_QA.png "Losses and gains of species basal area in relation to wildfire")
+*Losses and gains of species basal area in relation to wildfire*
 
 ## Conclusions
 This research highlights the importance of species-level analysis in ecological research. The findings suggest that models that aggregate species into functional groups may miss critical trends and overestimate changes. The use of remote sensing, machine learning and time-series analysis provide a powerful method for upscaling smaller datasets from field research and can help provide a more nuanced understanding of forest dynamics.
