@@ -7,6 +7,7 @@ header:
   overlay_image: /assets/images/python.png
   overlay_filter: rgba(0, 0, 0, 0.5)
   teaser: /assets/images/BA_timeseries_boreal_smooth.png
+author_profile: true
 permalink: /projects/AK_VegShifts/
 toc: true
 ---
@@ -18,7 +19,7 @@ This work leveraged geospatial data, time-series analysis and random forest mode
 ### Data preparation
 I used the **Google Earth Engine platform** and its **Python API** to process and analyze remotely sensed data for a 25-year period to build out predictor variables for my random forest models.
 
-#### Example code for creating some of the predictor variables from remotely sensed data:
+#### Example Python code for creating some of the predictor variables from remotely sensed data:
 ```python
 # %% Start session
 import ee
