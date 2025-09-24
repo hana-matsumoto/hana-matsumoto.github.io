@@ -8,8 +8,6 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-:root {
-
-  --background-color: #c1ced9 !important;
-
+body {
+  background-color: #c1ced9 !important;  // add !important to force override if needed
 }
