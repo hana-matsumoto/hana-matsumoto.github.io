@@ -3,6 +3,9 @@ layout: single
 permalink: /resume/
 author_profile: true
 title: ""
+header:
+  overlay_image: /assets/images/python.png
+  overlay_filter: rgba(0, 0, 0, 0.5)
 ---
 # Skills
 ### Languages
