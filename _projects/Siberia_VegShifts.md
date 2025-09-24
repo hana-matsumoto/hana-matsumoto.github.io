@@ -35,7 +35,6 @@ I developed and implemented a series of 48 random forest classification models u
 | ------- | -------------- |
 | Response variable | Tundra: Arctic grass/moss retention or transition to conifer |
 | | Taigas: conifer retention or transition to deciduous hardwood |
-| -------------- | -------------------------------------- |
 | Predictor variable | Mean seasonal temperature post-disturbance |
 |                    | Year-to-year variance in mean seasonal temperature post-disturbance |
 |                    | Change in mean annual seasonal temperature |
