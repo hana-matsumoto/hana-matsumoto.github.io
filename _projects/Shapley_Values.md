@@ -2,7 +2,7 @@
 title: "Shapley values as a tool for interpreting machine learning model outcomes"
 layout: single
 classes: wide
-excerpt: "Shapley values can be a powerful technique for uncovering meaning behind machine learning models"
+excerpt: "A powerful technique for uncovering meaning behind machine learning models"
 header:
   teaser: /assets/images/Top3_SHAP_boreal_allPN_new.png
   overlay_image: /assets/images/python.png
