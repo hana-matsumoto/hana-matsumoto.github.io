@@ -80,10 +80,15 @@ The model's variable importance analysis (Fig. 4) revealed that two common predi
 ![](https://hana-matsumoto.github.io/assets/images/Top3Vars_noncond.png)
 *Figure 4: Top three most important variables for classifying vegetation determined by their average variable importance*
 
-If we take a closer look (albeit a messy look) at these important variables through time, we can uncover more information about what is driving these shifts in vegetation.
+If we take a closer look (albeit a messy look) at these important variables through time, we can uncover more information about what drove these simulated shifts in vegetation (Fig. 5).
+
+
 ![](https://hana-matsumoto.github.io/assets/images/all_time_vars_new_noncond-01.png)
+*Figure 5: Top important variables for each species over time*
+
 
 ![](https://hana-matsumoto.github.io/assets/images/annual_fire_time.PNG)
+*Figure 6: Total area burned and area burned by high severity fire over the 285 year simulation period for each landscape and climate scenario*
 
 # Conclusions
 The findings demonstrate the effectiveness of using a data-driven machine learning approach to model and predict complex ecological systems. This research provides valuable, quantifiable insights for environmental management and resource forecasting by identifying the key drivers of change and predicting their impact on boreal forests at a landscape scale.
