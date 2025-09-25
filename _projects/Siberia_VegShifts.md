@@ -56,9 +56,11 @@ A key part of this process involved **feature engineering to translate these eco
 
 # Results
 ## Simulation modeling results
-The primary shifts of vegetation that occurred under climate change conditions was that of the rather substantial shift from a **tundra dominated historically by Arctic moss and grass (light blue)** to a tundra **invaded and taken over by conifer species (dark and light green) under intermediate and extreme climate change conditions**. In the **three taiga landscapes**, the primary shift of vegetation was that of the **reduction of the historically dominant conifer species (dark and light green)** to landscapes **more heavily dominated by deciduous species (brown) under intermediate and extreme climate change conditions**.
+The primary shifts of vegetation that occurred under climate change conditions was that of the rather substantial shift from a **tundra dominated historically by Arctic moss and grass (light blue)** to a tundra **invaded and taken over by conifer species (dark and light green) under intermediate and extreme climate change conditions**. 
+
+In the **three taiga landscapes**, the primary shift of vegetation was that of the **reduction of the historically dominant conifer species (dark and light green)** to landscapes **more heavily dominated by deciduous species (brown) under intermediate and extreme climate change conditions**.
 ![](https://hana-matsumoto.github.io/assets/images/Figure4.png)
-*Figure 3: Changes in percent of vegetation types across the four landscapes for a 280-year simulation period, under a historical climate, intermediate and extreme climate change scenario. Percentages based on the number of hectares of each forest type*
+*Figure 3: Changes in percent of vegetation types across the four landscapes for a 285-year simulation period, under a historical climate, intermediate and extreme climate change scenario. Percentages based on the number of hectares of each forest type*
 
 ## Random forest classification model results
 ### Model performance
@@ -74,9 +76,14 @@ The primary shifts of vegetation that occurred under climate change conditions w
 The random forest models accurately predicted vegetation composition and species distribution with high performance metrics (average accuracy - R<sup>2</sup> over 80% and AUC-ROC over 85%). 
 
 ### Variable importance
-The model's variable importance analysis (Fig. 4) revealed that wildfire was the most significant driver of change.
+The model's variable importance analysis (Fig. 4) revealed that two common predictor variables, distance to seed source (SeedDist - green) and soil dynamics (AvgWater, AvgALD, ChangeWater - brown), became increasingly important or became more similarly important to each other for predicting shifts of vegetation in all of the landscapes under climate change conditions. An exception can be seen in the tundra where variables related to climate (Summer_AvgPAR, Summer_ppt, Winter_varppt - yellow) became more important for predicting vegetation shifts under climate change conditions.
 ![](https://hana-matsumoto.github.io/assets/images/Top3Vars_noncond.png)
-*Figure 4: Top three variables foir classifying vegetation determined by their average variable importance*
+*Figure 4: Top three most important variables for classifying vegetation determined by their average variable importance*
+
+If we take a closer look (albeit a messy look) at these important variables through time, we can uncover more information about what is driving these shifts in vegetation.
+![](https://hana-matsumoto.github.io/assets/images/all_time_vars_new_noncond-01.png)
+
+![](https://hana-matsumoto.github.io/assets/images/annual_fire_time-01.png)
 
 # Conclusions
 The findings demonstrate the effectiveness of using a data-driven machine learning approach to model and predict complex ecological systems. This research provides valuable, quantifiable insights for environmental management and resource forecasting by identifying the key drivers of change and predicting their impact on boreal forests at a landscape scale.
