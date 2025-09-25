@@ -62,6 +62,10 @@ In the **three taiga landscapes**, the primary shift of vegetation was that of t
 ![](https://hana-matsumoto.github.io/assets/images/Figure4.png)
 *Figure 3: Changes in percent of vegetation types across the four landscapes for a 285-year simulation period, under a historical climate, intermediate and extreme climate change scenario. Percentages based on the number of hectares of each forest type*
 
+Additionally, wildfire was clearly the most effected simulated disturbance under climate change in all of the landscapes as seen by the stark increase in the red bar under intermediate and extreme climate change conditions in all four landscapes (Fig. 4). In fact, in the tundra, not only was wildfire introduced to the landscape under climate change conditions when it was not present historically, but wildfire became the dominant disturbance in terms of area affected under climate change conditions.
+![](https://hana-matsumoto.github.io/assets/images/Figure3.png)
+*Figure 4. Total area disturbed by wildfire, timber harvesting and wind throughout the 285-year simulation period for each climate scenario and study landscape.*
+
 ## Random forest classification model results
 ### Model performance
 
@@ -76,22 +80,31 @@ In the **three taiga landscapes**, the primary shift of vegetation was that of t
 The random forest models accurately predicted vegetation composition and species distribution with high performance metrics (average accuracy - R<sup>2</sup> over 80% and AUC-ROC over 85%). 
 
 ### Variable importance
-The model's variable importance analysis (Fig. 4) revealed that two common predictor variables, distance to seed source (SeedDist - green) and soil dynamics (AvgWater, AvgALD, ChangeWater - brown), became increasingly important or became more similarly important to each other for predicting shifts of vegetation in all of the landscapes under climate change conditions. An exception can be seen in the tundra where variables related to climate (Summer_AvgPAR, Summer_ppt, Winter_varppt - yellow) became more important for predicting vegetation shifts under climate change conditions.
+The model's variable importance analysis (Fig. 5) revealed that two common predictor variables, distance to seed source (SeedDist - green) and soil dynamics (AvgWater, AvgALD, ChangeWater - brown), became increasingly important or became more similarly important to each other for predicting shifts of vegetation in all of the landscapes under climate change conditions. An exception can be seen in the tundra where variables related to climate (Summer_AvgPAR, Summer_ppt, Winter_varppt - yellow) became more important for predicting vegetation shifts under climate change conditions.
 ![](https://hana-matsumoto.github.io/assets/images/Top3Vars_noncond.png)
-*Figure 4: Top three most important variables for classifying vegetation determined by their average variable importance*
+*Figure 5: Top three most important variables for classifying vegetation determined by their average variable importance*
 
-If we take a closer look at these top important variables through time, we can uncover more information about what drove these simulated shifts in vegetation. For this example, we are only going to focus on the tundra and southern taiga landscapes.
+If we take a closer look at these top important variables through time, we can uncover more information about what drove these simulated shifts in vegetation. For this example, we are only going to focus on the tundra.
 
+Under intermediate climate change conditions, the variable importance ranked distance to deciduous seed source the highest influence over whether Arctic grass/moss (blue) would return back to its original state or transition to conifer (green) after disturbance (Fig 5).
 
+Under extreme climate change conditions, we notice how Arctic grass/moss (blue) completely disappears by about 2120 (Fig. 6). We also know that climate variables had become the top three most important predictor variables for predicting a shift from Arctic grass/moss to conifer (Fig. 5). This implies that climate became too extreme for Arctic grass/moss to survive.
 ![](https://hana-matsumoto.github.io/assets/images/all_time_vars_tundra.png)
-*Figure 5: Temporal trends of top important variables for the tundra*
+*Figure 6: Temporal trends of top important variables for the tundra*
 
+You might by now be thinking, what about that introduction and then dominance of wildfire in the tundra under climate change conditions that we saw in Figure 3? Couldn't that have also been the cause of the dismissal of Arctic grass/moss and rise of conifers in the tundra?
+
+So, let's take a look at the simulated temporal wildfire patterns here and see if that's the case (Fig. 7). 
+
+We see under extreme climate change conditions that the introduction and dominance of wildfire seemingly correlates with the reduction in and dismissal of Arctic grass/moss (Fig. 3, 6). However, if we look at wildfire under intermediate climate change conditions, we see that wildfire begins around year 2120, but, Arctic grass/moss remained rather prevalent at and beyond this time (Fig. 3).
 ![](https://hana-matsumoto.github.io/assets/images/fire_tundra.png)
-*Figure 6: Total area burned and area burned by high severity fire over the 285 year simulation period for the tundra*
+*Figure 7: Total area burned and area burned by high severity fire over the 285 year simulation period for the tundra*
 
+This analysis helps confirm that the variable importance graph provided a good indication of the ecological mechanism that would likely control shifts in tundra vegetation.
+
+<!-- Now let's take a look at the southern taiga.
 ![](https://hana-matsumoto.github.io/assets/images/all_time_vars_staiga.png)
-
-![](https://hana-matsumoto.github.io/assets/images/fire_staiga.png)
+![](https://hana-matsumoto.github.io/assets/images/fire_staiga.png) -->
 
 # Conclusions
 The findings demonstrate the effectiveness of using a data-driven machine learning approach to model and predict complex ecological systems. This research provides valuable, quantifiable insights for environmental management and resource forecasting by identifying the key drivers of change and predicting their impact on boreal forests at a landscape scale.
