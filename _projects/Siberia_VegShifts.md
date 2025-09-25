@@ -96,7 +96,7 @@ You might by now be thinking, what about that introduction and then dominance of
 
 So, let's take a look at the simulated temporal wildfire patterns here and see if that's the case (Fig. 7). 
 
-We see under extreme climate change conditions that the introduction and dominance of wildfire seemingly correlates with the reduction in and dismissal of Arctic grass/moss (Fig. 3, 6). However, if we look at wildfire under intermediate climate change conditions, we see that wildfire begins around year 2120, but, Arctic grass/moss remained rather prevalent at and beyond this time (Fig. 3).
+We see under extreme climate change conditions that the introduction and dominance of wildfire seemingly correlates with the reduction in and dismissal of Arctic grass/moss (Fig. 3, 6). However, if we look at wildfire under intermediate climate change conditions, we see that wildfire begins around year 2120, but, Arctic grass/moss persisted at and beyond this time (Fig. 3).
 ![](https://hana-matsumoto.github.io/assets/images/fire_tundra.png)
 *Figure 7: Total area burned and area burned by high severity fire over the 285 year simulation period for the tundra*
 
