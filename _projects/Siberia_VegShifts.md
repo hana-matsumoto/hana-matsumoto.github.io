@@ -83,7 +83,7 @@ The model's variable importance analysis (Fig. 4) revealed that two common predi
 If we take a closer look (albeit a messy look) at these important variables through time, we can uncover more information about what is driving these shifts in vegetation.
 ![](https://hana-matsumoto.github.io/assets/images/all_time_vars_new_noncond-01.png)
 
-![](https://hana-matsumoto.github.io/assets/images/annual_fire_time-01.png)
+![](https://hana-matsumoto.github.io/assets/images/annual_fire_time.PNG)
 
 # Conclusions
 The findings demonstrate the effectiveness of using a data-driven machine learning approach to model and predict complex ecological systems. This research provides valuable, quantifiable insights for environmental management and resource forecasting by identifying the key drivers of change and predicting their impact on boreal forests at a landscape scale.
