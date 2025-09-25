@@ -2,7 +2,7 @@
 title: "What simulation modeling and random forest models can tell us about the future of Siberian taiga"
 layout: single
 classes: wide
-excerpt: "Analyzing simulation model output using random forest models and variable importance to investigate future changes in Siberian forests."
+excerpt: "Analyzing simulation model output using random forest models and variable importance to investigate future changes in Siberian forests"
 header:
   teaser: /assets/images/Top3Vars_noncond.png
   overlay_image: /assets/images/python.png
@@ -80,15 +80,18 @@ The model's variable importance analysis (Fig. 4) revealed that two common predi
 ![](https://hana-matsumoto.github.io/assets/images/Top3Vars_noncond.png)
 *Figure 4: Top three most important variables for classifying vegetation determined by their average variable importance*
 
-If we take a closer look (albeit a messy look) at these important variables through time, we can uncover more information about what drove these simulated shifts in vegetation (Fig. 5).
+If we take a closer look at these top important variables through time, we can uncover more information about what drove these simulated shifts in vegetation. For this example, we are only going to focus on the tundra and southern taiga landscapes.
 
 
-![](https://hana-matsumoto.github.io/assets/images/all_time_vars_new_noncond-01.png)
-*Figure 5: Top important variables for each species over time*
+![](https://hana-matsumoto.github.io/assets/images/all_time_vars_tundra.png)
+*Figure 5: Temporal trends of top important variables for the tundra*
 
+![](https://hana-matsumoto.github.io/assets/images/fire_tundra.png)
+*Figure 6: Total area burned and area burned by high severity fire over the 285 year simulation period for the tundra*
 
-![](https://hana-matsumoto.github.io/assets/images/annual_fire_time.PNG)
-*Figure 6: Total area burned and area burned by high severity fire over the 285 year simulation period for each landscape and climate scenario*
+![](https://hana-matsumoto.github.io/assets/images/all_time_vars_staiga.png)
+
+![](https://hana-matsumoto.github.io/assets/images/fire_staiga.png)
 
 # Conclusions
 The findings demonstrate the effectiveness of using a data-driven machine learning approach to model and predict complex ecological systems. This research provides valuable, quantifiable insights for environmental management and resource forecasting by identifying the key drivers of change and predicting their impact on boreal forests at a landscape scale.
