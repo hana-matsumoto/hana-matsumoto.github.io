@@ -80,27 +80,37 @@ Additionally, wildfire was clearly the most effected simulated disturbance under
 The random forest models accurately predicted vegetation composition and species distribution with high performance metrics (average accuracy - R<sup>2</sup> over 80% and AUC-ROC over 85%). 
 
 ### Variable importance
-The model's variable importance analysis (Fig. 5) revealed that two common predictor variables, distance to seed source (SeedDist - green) and soil dynamics (AvgWater, AvgALD, ChangeWater - brown), became increasingly important or became more similarly important to each other for predicting shifts of vegetation in all of the landscapes under climate change conditions. An exception can be seen in the tundra where variables related to climate (Summer_AvgPAR, Summer_ppt, Winter_varppt - yellow) became more important for predicting vegetation shifts under climate change conditions.
+For this next part, let's just use the tundra as the example.
+
+Under intermediate climate change conditions, distance to conifer seed source (SeedDist - green) had the highest influence over whether after a disturbance if Arctic grass/moss would return back to Arctic grass/moss or if it would transition to conifer (Fig 5). We can see that this is also true under historical climate conditions, however, uncertainty is much lower under intermediate climate change conditions.
+
+You may also notice that climate variables (Summer_AvgPAR, Summer_ppt, Winter_varppt, Winter_AvgTemp, Winter_ppt - yellow) showed up at important predictor variables, this is especially true for extreme climate change conditions where climate predictor variables occupied the top three most important variables, knocking distance to conifer seed source from the ranking completely.
 ![](https://hana-matsumoto.github.io/assets/images/Top3Vars_noncond.png)
-*Figure 5: Top three most important variables for classifying vegetation determined by their average variable importance*
+*Figure 5: Top three most important variables for classifying vegetation determined by their average variable importance. Variable importance values (x-axis) are relative values.*
 
-If we take a closer look at these top important variables through time, we can uncover more information about what drove these simulated shifts in vegetation. For this example, we are only going to focus on the tundra.
+If we take a closer look at some of these important variables through time, we can uncover more information about what drove these simulated shifts in vegetation.
 
-Under intermediate climate change conditions, the variable importance ranked distance to deciduous seed source the highest influence over whether Arctic grass/moss (blue) would return back to its original state or transition to conifer (green) after disturbance (Fig 5).
+We see a clear differences in patterns of the variables through time between the three climate scenarios (Fig. 6). The distance to conifer seed soure (DtSS) graphs are particularly interesting.
 
-Under extreme climate change conditions, we notice how Arctic grass/moss (blue) completely disappears by about 2120 (Fig. 6). We also know that climate variables had become the top three most important predictor variables for predicting a shift from Arctic grass/moss to conifer (Fig. 5). This implies that climate became too extreme for Arctic grass/moss to survive.
+Under historical climate conditions, Arctic grass/moss sites were very far from conifer sites. This makes sense as historically, the tundra had little to no conifers.
+
+Under intermediate and extreme climate change conditions, distance to conifer seed source changes drastically with Arctic grass/moss becoming very close to conifer seed sources by the end of the intermediate climate change scenario's simulation period whereas Arctic grass/moss completely disappeared by ~2120 under extreme climate change conditions.
+
+If we think back to the previous graph, we can infer that climate became too extreme for Arctic grass/moss to survive as variables related to climate were the second and third most important variables under intermediate climate chnages conditions and the top three most important predictor variables under extreme climate change conditions (Fig. 5).
 ![](https://hana-matsumoto.github.io/assets/images/all_time_vars_tundra.png)
 *Figure 6: Temporal trends of top important variables for the tundra*
 
-You might by now be thinking, what about that introduction and then dominance of wildfire in the tundra under climate change conditions that we saw in Figure 3? Couldn't that have also been the cause of the dismissal of Arctic grass/moss and rise of conifers in the tundra?
+However, could there possibly be more at play here? Such as the introduction and then dominance of wildfire in the tundra under climate change conditions that we saw in Figure 3?
 
-So, let's take a look at the simulated temporal wildfire patterns here and see if that's the case (Fig. 7). 
+Let's take a look at the simulated temporal wildfire patterns (Fig. 7). 
 
-We see under extreme climate change conditions that the introduction and dominance of wildfire seemingly correlates with the reduction in and dismissal of Arctic grass/moss (Fig. 3, 6). However, if we look at wildfire under intermediate climate change conditions, we see that wildfire begins around year 2120, but, Arctic grass/moss persisted at and beyond this time (Fig. 3).
+We see under extreme climate change conditions that the introduction and dominance of wildfire seemingly correlates with the reduction in and disappearance of Arctic grass/moss (Fig. 3, 6). If we look at wildfire under intermediate climate change conditions, we see that wildfire begins around year 2120 but unlike under extreme climate change conditions, Arctic grass/moss persisted at and beyond this time (Fig. 3).  Therefore, it's likely that the first inference that climate became too intense to support Arctic grass/moss was correct. 
+
+We also see evidence of this in the summer PAR graph under extreme climate change conditions. PAR means photosynthetically active radiation and is a measure of the incoming solar radiation available for plants to use for photosynthesis. Under the extreme climate change conditions, PAR in the summer dips much lower than any other point in the other climate scenarios which ultimately is followed by the disappearance of Arctic grass/moss altogether.
 ![](https://hana-matsumoto.github.io/assets/images/fire_tundra.png)
 *Figure 7: Total area burned and area burned by high severity fire over the 285 year simulation period for the tundra*
 
-This analysis helps confirm that the variable importance graph provided a good indication of the ecological mechanism that would likely control shifts in tundra vegetation.
+This analysis helps confirm that the variable importance graph was a good indication of the ecological mechanism that would likely control shifts in tundra vegetation.
 
 <!-- Now let's take a look at the southern taiga.
 ![](https://hana-matsumoto.github.io/assets/images/all_time_vars_staiga.png)
