@@ -19,12 +19,13 @@ RStudio, Google Earth Engine, Visual Studio Code, GitHub, Adobe Photoshop, Adobe
 ### NSF Graduate Research Fellow
 **University of Oregon** · *September 2022 – September 2025 · Hybrid*
 
-- **Developed and validated 48 Random Forest classification models** to predict vegetation shifts across four 10,000 km² landscapes, achieving an average accuracy of over 82% and an AUC-ROC of over 90%. This analysis helped identify key environmental drivers of change over a 280-year simulation period.  
-- **Engineered and tuned regression models** to predict vegetation density, analyzing the relative importance of over 40 different variables including climate, disturbance type, and topography using Shapley values.  
-- **Led data science projects using R** and its ***'tidymodels'*** and ***'ranger'*** packages and **Google Earth Engine’s Python API** and its ***'scikit-learn'*** package to process and analyze large and complex datasets.  
-- **Conducted advanced statistical analysis in R** and created impactful visualizations using ***'ggplot2'***, **Adobe**, and **GIS software**, presenting results at six national conferences.
+- **Developed and validated 48 Random Forest classification models** to predict changes in vegetation across four 10,000 km² landscapes, leveraging hypothesis-driven experimentation to evaluate outcomes with >80% accuracy and >85% AUC-ROC.  
+- **Engineered and tuned regression models** to predict vegetation density, quantifying contributions of 40+ variable with **Shapley values** and sensitivity analyses.  
+- **Led data science projects using R** and its ***'tidymodels'*** and ***'ranger'*** packages and **Google Earth Engine’s Python API** and its ***'scikit-learn'*** package to process and analyze large and complex datasets.
+- **Processed and analyzed large, complex datasets** using **Python (*‘scikit-learn’*), R (*‘tidymodels’*, *‘ranger’*)**, and Google Earth Engine in **cloud computing environments**.
+- **Delivered clear, impactful insights through visualizations** (***'ggplot2'***, **Adobe Illustrator & Photoshop**, and **GIS**) and presented results at six national conferences, tailoring storytelling to diverse audiences.
 - **Utilized remotely sensed data** from Landsat imagery and Google Earth Engine to create a 25-year time-series analysis on forest changes, predicting species-specific basal area trends.  
-- Secured **$156,850** in research funding through competitive proposal writing and project scoping.  
+- **Secured $156,850** in competitive funding through proposal writing and project scoping.
 
 ---
 
