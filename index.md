@@ -29,7 +29,7 @@ R • Python • Google Earth Engine • ESRI | QGIS • SQL
 
 ---
 ### ⓘ About
-I grew up and went to undergad in Ohio, I'm a big Cleveland sports fan!
+I grew up and went to undergrad in Ohio, I'm a big Cleveland sports fan!
 
 When I am not sitting behind the computer, you can find me hiking, camping, snowboarding or enjoying several episodes of a show series I have seen already
 
