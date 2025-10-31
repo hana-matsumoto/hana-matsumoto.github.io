@@ -9,7 +9,7 @@ header:
 ---
 # Skills
 ### Languages
-Proficient in R | Experience with Python, SQL
+Proficient in R | Experience with Python, SQL (PostgreSQL)
 ### Tech Stack
 RStudio, Google Earth Engine, Visual Studio Code, GitHub, Adobe Photoshop, Adobe Illustrator, ESRI ArcGIS, QGIS, Blender, Jupyter Notebook
 
@@ -19,38 +19,38 @@ RStudio, Google Earth Engine, Visual Studio Code, GitHub, Adobe Photoshop, Adobe
 ### NSF Graduate Research Fellow
 **University of Oregon** · *September 2022 – September 2025 · Hybrid*
 
-- **Developed and validated 48 Random Forest classification models** to predict changes in vegetation across four 10,000 km² landscapes, leveraging hypothesis-driven experimentation to evaluate outcomes with >80% accuracy and >85% AUC-ROC.  
-- **Engineered and tuned regression models** to predict vegetation density, quantifying contributions of 40+ variable with **Shapley values** and sensitivity analyses.  
-- **Led data science projects using R** and its ***'tidymodels'*** and ***'ranger'*** packages and **Google Earth Engine’s Python API** and its ***'scikit-learn'*** package to process and analyze large and complex datasets.
-- **Processed and analyzed large, complex datasets** using **Python (*‘scikit-learn’*), R (*‘tidymodels’*, *‘ranger’*)**, and Google Earth Engine in **cloud computing environments**.
-- **Delivered clear, impactful insights through visualizations** (***'ggplot2'***, **Adobe Illustrator & Photoshop**, and **GIS**) and presented results at six national conferences, tailoring storytelling to diverse audiences.
-- **Utilized remotely sensed data** from Landsat imagery and Google Earth Engine to create a 25-year time-series analysis on forest changes, predicting species-specific basal area trends.  
-- **Secured $156,850** in competitive funding through proposal writing and project scoping.
+- Developed Random Forest classification models in R using large, disparate simulation output to predict vegetation shifts across four 10,000 km² landscapes, achieving >80% accuracy and >85% AUC-ROC.
+- Engineered geospatial features from satellite imagery via GEE and trained Random Forest regression models in R and Python to map 25 years of species-level forest change.
+- Conducted model comparison and evaluation using resampling to calculate R2 and AUC-ROC or RMSE metrics to determine optimal model selection; tuned models through k-fold cross-validation and grid search to improve predictive performance.
+- Employed Shapley values and variable importance metrics to identify key environmental drivers of vegetation change and used time-series analyses to track temporal trends.
+- Created high-impact geospatial visualizations and figures using R, ArcGIS/QGIS, and Adobe Illustrator & Photoshop, communicating findings to diverse audiences at six national conferences.
+- Secured $156,850 in competitive funding utilized for tuition, stipend and research travel.
 
 ---
 
 ### Geospatial Data Research Assistant
 **Kent State University** · *August 2020 – August 2022 · Hybrid* 
 
-- **Built, cleaned and analyzed large geospatial datasets** integrating field and remotely sensed data, using **R and Google Earth Engine**.
-- **Created clear, high-impact data visualizations and figures** for numerous professional presentations and publications, showcasing the ability to effectively communicate complex data insights.
+- Acquired, cleaned, and integrated geospatial datasets from field surveys, satellite imagery and environmental sources to assess tree species regeneration.
+- Performed geospatial and spectral analyses to evaluate reflectance differences across vegetation types, time and seasons using GEE and ArcGIS.
+- Created clear, reproducible data visualizations and figures for five professional presentations and publications.
 
 ---
 
 ### Sustainability Analyst Intern
 **Akron Zoological Park** · *August 2018 – August 2019*
 
-- **Conducted data collection, analysis, and visualization** to support key projects for the zoo’s sustainability plan, identifying trends and opportunities for improvement.  
-- **Led a waste audit that reduced employee waste by an average of 50%**, demonstrating a data-driven approach to improving operational efficiency and sustainability performance.
-- **Authored over 20 newsletters and reports**, translating complex sustainability findings into clear, actionable recommendations for diverse audiences.
-- **Collaborated across all departments** to design and launch outreach campaigns that successfully educated the **entire zoo staff**, as well as local elementary schools and the general public, on sustainability initiatives.
+- Conducted data collection, analysis, and visualization to support key projects for the zoo’s sustainability plan, identifying trends and opportunities for improvement.  
+- Led a waste audit that reduced employee waste by an average of 50%, demonstrating a data-driven approach to improving operational efficiency and sustainability performance.
+- Authored over 20 newsletters and reports, translating complex sustainability findings into clear, actionable recommendations for diverse audiences.
+- Collaborated across all departments to design and launch outreach campaigns that successfully educated the **entire zoo staff**, as well as local elementary schools and the general public, on sustainability initiatives.
 
 ---
 
 ### GIS Intern
 **CBRE FacilitySource** · *May 2017 – December 2018*
 
--	**Performed spatial data analysis and visualization** to support large-scale commercial landscape planning.
+-	Performed spatial data analysis and visualization to support large-scale commercial landscape planning.
 
 ---
 
