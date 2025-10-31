@@ -13,7 +13,7 @@ title: "Welcome"
 ---
 
 ### 👩🏻‍💻 Skills 
-R • Python • Google Earth Engine • ESRI | QGIS • SQL  
+R • Python • Machine Learning • Google Earth Engine • ESRI | QGIS • SQL (PostgreSQL) 
 
 ---
 ### 🎯 Interests
