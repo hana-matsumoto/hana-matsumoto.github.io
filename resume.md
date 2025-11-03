@@ -64,8 +64,7 @@ RStudio, Google Earth Engine, Visual Studio Code, GitHub, Adobe Photoshop, Adobe
 ---
 
 # Certificates / Bootcamps
-- W3Schools PostgreSQL certification [LINK](/assets/images/certificate_of_completion_postgresql.pdf)
-- <a href="/assets/images/certificate_of_completion_postgresql.pdf" target="_blank">LINK</a>
+- W3Schools PostgreSQL certification [LINK](/assets/images/certificate_of_completion_postgresql.pdf){:target="_blank"}
 
 # Activities
 -	Mentor to undergraduate students in data science and STEM fields, providing guidance on career development, research interests and graduate school preparation.
