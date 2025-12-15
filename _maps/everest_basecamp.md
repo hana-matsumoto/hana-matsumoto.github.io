@@ -8,6 +8,6 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.5)
   teaser: /assets/images/EverestBaseCamp.jpg
 author_profile: true
-permalink: /MAPS/Everest_BaseCamp/
+permalink: /maps/everest_basecamp/
 toc: true
 ---
