@@ -7,6 +7,7 @@ header:
   overlay_image: /assets/images/python.png
   overlay_filter: rgba(0, 0, 0, 0.5)
   teaser: /assets/images/EverestBaseCamp.jpg
+permalink: /maps/everest-basecamp/
 author_profile: true
 toc: true
 ---
