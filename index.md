@@ -43,19 +43,4 @@ I grew up and went to undergrad in Ohio and am a big Cleveland sports fan!
 When I am not sitting behind the computer, you can find me hiking, camping, snowboarding or enjoying several episodes of a show series I have seen already.
 
 I have the two cutest cats in the world named Cuchara and Momo.
-
 {% include gallery id="cats" layout="third" %}
-
-<div class="carousel-wrapper">
-  <div class="carousel">
-    <div class="carousel-item">
-      <img src="/assets/images/cuchara_momo.jpg" alt="Cuchara and Momo">
-    </div>
-    <div class="carousel-item">
-      <img src="/assets/images/cuchara1.jpg" alt="Cuchara">
-    </div>
-    <div class="carousel-item">
-      <img src="/assets/images/momo1.jpg" alt="Momo">
-    </div>
-  </div>
-</div>
