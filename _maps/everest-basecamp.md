@@ -10,5 +10,6 @@ header:
 permalink: /maps/everest-basecamp/
 author_profile: true
 ---
-Mt. Everest
+Mt. Everest south base camp, Nepal
 ![Everest South Base Camp](/assets/images/EverestBaseCamp.jpg "Everest South Base Camp Hike")
+
