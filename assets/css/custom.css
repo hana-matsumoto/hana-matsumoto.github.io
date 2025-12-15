@@ -2,13 +2,33 @@
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  gap: 10px;
-  max-width: 400px;  
+  gap: 10px;               /* space between images */
+  max-width: 400px;         /* sets carousel width like your cat image */
+  margin: 0 auto;           /* centers carousel */
+  padding-bottom: 10px;     /* optional spacing */
 }
 
-.carousel img {
-  width: 100%;
-  max-width: 400px;
+.carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.carousel::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.carousel-item {
+  flex: 0 0 auto;          /* prevents shrinking */
   scroll-snap-align: center;
-  border-radius: 8px;
+}
+
+.carousel-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;      /* optional rounding */
 }
