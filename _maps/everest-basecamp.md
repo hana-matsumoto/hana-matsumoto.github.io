@@ -14,3 +14,5 @@ author_profile: true
 Mt. Everest
 
 ![Everest South Base Camp](https://hana-matsumoto.github.io/assets/images/EverestBaseCamp.jpg "Everest South Base Camp Hike")
+
+![Everest South Base Camp](/assets/images/EverestBaseCamp.jpg "Everest South Base Camp Hike")
