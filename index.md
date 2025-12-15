@@ -34,7 +34,7 @@ R • Python • Predictive Modeling • Google Earth Engine • ArcGIS | QGIS �
 ### Education
 **M.S. Environmental Studies**, University of Oregon — *2025*  
 **M.S. Geography**, University of Oregon — *2025*  
-**B.S. Environmental Science**, Kent State University — *2021* (*Magna cum laude*)
+**B.S. Environmental Science** (GIS Minor), Kent State University — *2021* (*Magna cum laude*)
 
 ---
 ### About
