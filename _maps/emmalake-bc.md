@@ -1,5 +1,5 @@
 ---
-tite: "Emma Lake, British Columbia"
+title: "Emma Lake, British Columbia"
 layout: single
 classes: wide
 excerpt: "Emma Lake"
