@@ -44,7 +44,7 @@ When I am not sitting behind the computer, you can find me hiking, camping, snow
 
 I have the two cutest cats in the world named Cuchara and Momo.
 
-{% include gallery id="cats" layout="half" %}
+{% include gallery id="cats" layout="third" %}
 
 #### cat tax:
 <img src="/assets/images/cuchara_momo.jpg" alt="drawing" width="200"/>
