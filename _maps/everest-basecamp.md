@@ -11,7 +11,7 @@ permalink: /maps/everest-basecamp/
 author_profile: true
 ---
 Mt. Everest south base camp, Nepal
-![Everest South Base Camp](/assets/images/EverestBaseCamp.jpg "Everest South Base Camp Hike"){: .image-popup }
+[![Everest South Base Camp](/assets/images/EverestBaseCamp.jpg)](/assets/images/EverestBaseCamp.jpg){: .image-popup }
 
 For my first successful 3D map, I designed this map for my friend for her birthday as she was hiking this trail up to the Mt. Everest south base camp as birthday present to herself (hi Liza). 
 
