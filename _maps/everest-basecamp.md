@@ -4,31 +4,84 @@ layout: single
 classes: wide
 excerpt: "Map of a popular hike to the Mt. Everest south base camp"
 header:
-  overlay_image: /assets/images/python.png
+  overlay_image: /assets/images/EverestBaseCamp.jpg
   overlay_filter: rgba(0, 0, 0, 0.5)
   teaser: /assets/images/EverestBaseCamp.jpg
 permalink: /maps/everest-basecamp/
 author_profile: true
 ---
 Mt. Everest south base camp, Nepal
-[![Everest South Base Camp](/assets/images/EverestBaseCamp.jpg)](/assets/images/EverestBaseCamp.jpg){: .image-popup }
+
+<!-- Static image -->
+<img
+  src="/assets/images/EverestBaseCamp.jpg"
+  alt="Everest South Base Camp map"
+  style="cursor: zoom-in; max-width:100%;"
+  onclick="openEverestMap()">
 
 
-<div id="everest-map" style="width:100%; height:600px; background:#000;"></div>
+<!-- Fullscreen modal -->
+<div id="everest-modal"
+     style="
+       display:none;
+       position:fixed;
+       top:0; left:0;
+       width:100%; height:100%;
+       background:rgba(0,0,0,0.85);
+       z-index:9999;
+     "
+     onclick="closeEverestMap()">
+
+  <!-- OpenSeadragon viewer -->
+  <div id="everest-viewer"
+       style="width:100%; height:100%;"
+       onclick="event.stopPropagation()">
+  </div>
+
+  <!-- Close button -->
+  <button onclick="closeEverestMap()"
+          style="
+            position:absolute;
+            top:15px; right:20px;
+            font-size:32px;
+            color:white;
+            background:none;
+            border:none;
+            cursor:pointer;
+          ">
+    &times;
+  </button>
+</div>
+
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  OpenSeadragon({
-    id: "everest-map",
-    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
-    tileSources: {
-      type: "image",
-      url: "/assets/images/EverestBaseCamp.jpg"
-    },
-    showNavigator: true,
-    defaultZoomLevel: 1,
-    maxZoomPixelRatio: 2
-  });
+let everestViewer = null;
+
+function openEverestMap() {
+  document.getElementById("everest-modal").style.display = "block";
+
+  if (!everestViewer) {
+    everestViewer = OpenSeadragon({
+      id: "everest-viewer",
+      prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+      tileSources: {
+        type: "image",
+        url: "/assets/images/EverestBaseCamp.jpg"
+      },
+      showNavigator: true,
+      defaultZoomLevel: 1,
+      maxZoomPixelRatio: 2
+    });
+  }
+}
+
+function closeEverestMap() {
+  document.getElementById("everest-modal").style.display = "none";
+}
+
+/* Close on ESC key */
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") closeEverestMap();
 });
 </script>
 
