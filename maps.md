@@ -3,7 +3,7 @@ layout: collection
 entries_layout: grid
 classes: wide
 title: "MAPS!"
-collection: MAPS
+collection: maps
 header:
   overlay_image: /assets/images/python.png
   overlay_filter: rgba(0, 0, 0, 0.5)
