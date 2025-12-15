@@ -12,3 +12,4 @@ author_profile: true
 toc: true
 ---
 Emma Lake in British Columbia
+![Emma Lake in British Columbia](/assets/images/EmmaLake_BC.png "Emma Lake in British Columbia")
