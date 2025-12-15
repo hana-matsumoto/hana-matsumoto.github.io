@@ -28,7 +28,8 @@
 
 .carousel-item img {
   display: block;
-  width: 100%;
+  width: 100% !important;
+  max-width: 400px; /* same as carousel max-width */
   height: auto;
-  border-radius: 8px;      /* optional rounding */
+  border-radius: 8px;
 }
