@@ -13,18 +13,23 @@ author_profile: true
 Mt. Everest south base camp, Nepal
 [![Everest South Base Camp](/assets/images/EverestBaseCamp.jpg)](/assets/images/EverestBaseCamp.jpg){: .image-popup }
 
-<div id="everest-map"
-     style="width: 100%; height: 600px; border: 1px solid #ddd;"></div>
+
+<div id="everest-map" style="width:100%; height:600px; background:#000;"></div>
 
 <script>
+document.addEventListener("DOMContentLoaded", function () {
   OpenSeadragon({
     id: "everest-map",
     prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
     tileSources: {
       type: "image",
       url: "/assets/images/EverestBaseCamp.jpg"
-    }
+    },
+    showNavigator: true,
+    defaultZoomLevel: 1,
+    maxZoomPixelRatio: 2
   });
+});
 </script>
 
 
