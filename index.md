@@ -6,6 +6,14 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.5)
   show_overlay_excerpt: "false"
 title: "Welcome!"
+
+cats:
+  - image_path: /assets/images/cuchara_momo.jpg
+    alt: "Cuchara and Momo"
+  - image_path: /assets/images/cuchara1.jpg
+    alt: "Cuchara"
+  - image_path: /assets/images/momo1.jpg
+    alt: "Momo"
 ---
 ### Transforming complex data into actionable insights through machine learning, statistical analysis and data visualization.
 
@@ -37,13 +45,6 @@ When I am not sitting behind the computer, you can find me hiking, camping, snow
 I have the two cutest cats in the world named Cuchara and Momo.
 
 {% include gallery id="cats" layout="half" %}
-cats:
-  - image_path: /assets/images/cuchara_momo.jpg
-    alt: "Cuchara and Momo"
-  - image_path: /assets/images/cuchara1.jpg
-    alt: "Cuchara"
-  - image_path: /assets/images/momo1.jpg
-    alt: "Momo"
 
 #### cat tax:
 <img src="/assets/images/cuchara_momo.jpg" alt="drawing" width="200"/>
