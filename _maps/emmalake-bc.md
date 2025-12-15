@@ -2,16 +2,16 @@
 title: "Emma Lake, British Columbia"
 layout: single
 classes: wide
-excerpt: "Emma Lake"
+excerpt: "Fun 3D map of Emma Lake"
 header:
   teaser: /assets/images/EmmaLake_BC.png
-  overlay_image: /assets/images/python.png
+  overlay_image: /assets/images/EmmaLake_BC.png
   overlay_filter: rgba(0, 0, 0, 0.5)
 permalink: /maps/emmalake-bc/
 author_profile: true
 ---
 Emma Lake in British Columbia, Canada
-![Emma Lake in British Columbia](/assets/images/EmmaLake_BC.png "Emma Lake in British Columbia")
+[![Emma Lake in British Columbia](/assets/images/EmmaLake_BC.png "Emma Lake in British Columbia")](/assets/images/EmmaLake_BC.png "Emma Lake in British Columbia"){: .image-popup }
 
 I created this map for my friend's partner's birthday (hi Alex and Sam). Emma Lake is a special place, nestled in the coast range of British Columbia near Powell River. Armed wtih the location from my friend and some text she wanted inlcuded, I came up with this design.
 
