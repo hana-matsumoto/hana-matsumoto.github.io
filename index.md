@@ -25,10 +25,9 @@ R • Python • Predictive Modeling • Google Earth Engine • ArcGIS | QGIS �
 
 ---
 ### Interests
-- Spatial Statistics  
+- Spatial Statistics & GIS
 - Machine Learning  
 - Data Visualization / Storytelling
-- GIS
 
 ---
 ### Education
