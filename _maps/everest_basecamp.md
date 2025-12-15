@@ -2,7 +2,7 @@
 title: "Everest Base Camp"
 layout: single
 classes: wide
-excerpt: ""
+excerpt: "Mt. Everest Base Camp"
 header:
   overlay_image: /assets/images/python.png
   overlay_filter: rgba(0, 0, 0, 0.5)
