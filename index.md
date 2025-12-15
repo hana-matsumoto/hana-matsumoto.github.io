@@ -47,11 +47,14 @@ I have the two cutest cats in the world named Cuchara and Momo.
 {% include gallery id="cats" layout="third" %}
 
 <div class="carousel">
-  <img src="/assets/images/cuchara_momo.jpg" alt="Cuchara and Momo">
-  <img src="/assets/images/cuchara1.jpg" alt="Cuchara">
-  <img src="/assets/images/momo1.jpg" alt="Momo">
+  <div class="carousel-item">
+    <img src="/assets/images/cuchara_momo.jpg" alt="Cuchara and Momo">
+  </div>
+  <div class="carousel-item">
+    <img src="/assets/images/cuchara1.jpg" alt="Cuchara">
+  </div>
+  <div class="carousel-item">
+    <img src="/assets/images/momo1.jpg" alt="Momo">
+  </div>
 </div>
 
-
-#### cat tax:
-<img src="/assets/images/cuchara_momo.jpg" alt="drawing" width="200"/>
