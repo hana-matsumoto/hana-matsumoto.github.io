@@ -13,6 +13,8 @@
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" #"dirt" "air", "aqua", "contrast", "dark", , "neon", "mint", "plum", "sunrise"
+custom_css:
+  - /assets/css/custom.css
 
 # Site Settings
 locale                   : "en-US"
