@@ -21,7 +21,7 @@ cats:
 ---
 
 ### Skills 
-R • Python • Predictive Modeling • Google Earth Engine • ESRI | QGIS • SQL (PostgreSQL) 
+R • Python • Predictive Modeling • Google Earth Engine • ArcGIS | QGIS • SQL (PostgreSQL) 
 
 ---
 ### Interests
