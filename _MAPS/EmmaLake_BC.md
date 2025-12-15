@@ -2,7 +2,7 @@
 tite: "Emma Lake, British Columbia"
 layout: single
 classes: wide
-excerpt: ""
+excerpt: "Emma Lake"
 header:
  teaser: /asset/images/EmmaLake_BC.png
  overlay_image: /assets/images/python.png
