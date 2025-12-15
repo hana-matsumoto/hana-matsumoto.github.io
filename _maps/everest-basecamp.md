@@ -10,5 +10,7 @@ header:
 permalink: /maps/everest-basecamp/
 author_profile: true
 ---
+
 Mt. Everest
+
 ![Everest South Base Camp](https://hana-matsumoto.github.io/assets/images/EverestBaseCamp.jpg "Everest South Base Camp Hike")
