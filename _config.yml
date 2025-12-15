@@ -330,5 +330,8 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  maps:
+    output: true
+    permalink: /:collection/:path/
 
 css: "/assets/css/main.scss"
