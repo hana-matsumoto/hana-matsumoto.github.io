@@ -1,11 +1,15 @@
+.carousel-wrapper {
+  max-width: 420px;       /* matches your cat image width */
+  margin: 0 auto;
+  overflow: hidden;       /* prevents content overflow */
+}
+
 .carousel {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  gap: 10px;               /* space between images */
-  max-width: 400px;         /* sets carousel width like your cat image */
-  margin: 0 auto;           /* centers carousel */
-  padding-bottom: 10px;     /* optional spacing */
+  gap: 10px;
+  scroll-behavior: smooth;
 }
 
 .carousel::-webkit-scrollbar {
@@ -22,14 +26,14 @@
 }
 
 .carousel-item {
-  flex: 0 0 auto;          /* prevents shrinking */
+  flex: 0 0 auto;
   scroll-snap-align: center;
 }
 
 .carousel-item img {
   display: block;
   width: 100% !important;
-  max-width: 400px; /* same as carousel max-width */
+  max-width: 400px;
   height: auto;
   border-radius: 8px;
 }
