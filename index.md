@@ -10,10 +10,10 @@ title: "Welcome!"
 cats:
   - image_path: /assets/images/cuchara_momo.jpg
     alt: "Cuchara and Momo"
-  - image_path: /assets/images/cuchara1.jpg
-    alt: "Cuchara"
   - image_path: /assets/images/momo1.jpg
     alt: "Momo"
+  - image_path: /assets/images/cuchara1.jpg
+    alt: "Cuchara"
 ---
 ### Transforming complex data into actionable insights through machine learning, statistical analysis and data visualization.
 
