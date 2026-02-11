@@ -10,21 +10,22 @@ header:
 # Skills
 ### Languages
 Proficient in R | Experience with Python, SQL (PostgreSQL)
-### Tech Stack
-RStudio, Google Earth Engine, Visual Studio Code, GitHub, Adobe Photoshop, Adobe Illustrator, ESRI ArcGIS, QGIS, Blender, Jupyter Notebook
+### Tools
+RStudio, Google Earth Engine, ArcGIS Pro, QGIS, Visual Studio Code, GitHub, Adobe Photoshop, Adobe Illustrator, Blender, Jupyter Notebook
 
 ---
 
 # Experience
-### NSF Graduate Research Fellow
+### Geospatial Data Scientist / NSF Graduate Research Fellow
 **University of Oregon** · *September 2022 – September 2025 · Hybrid*
 
-- Developed Random Forest classification models in R using large, disparate simulation output to predict vegetation shifts across four 10,000 km² landscapes, achieving >80% accuracy and >85% AUC-ROC.
-- Engineered geospatial features from satellite imagery via GEE and trained Random Forest regression models in R and Python to map 25 years of species-level forest change.
+- Designed and implemented geospatial analysis workflows to predict and map landscape-scale forest change using ArcGIS, R, Python and GEE.
+- Built, tested and compared Random Forest classification and regression models to project and map tree presence and density.
 - Conducted model comparison and evaluation using resampling to calculate R2 and AUC-ROC or RMSE metrics to determine optimal model selection; tuned models through k-fold cross-validation and grid search to improve predictive performance.
-- Employed Shapley values and variable importance metrics to identify key environmental drivers of vegetation change and used time-series analyses to track temporal trends.
-- Created high-impact geospatial visualizations and figures using R, ArcGIS/QGIS, and Adobe Illustrator & Photoshop, communicating findings to diverse audiences at six national conferences.
-- Secured $156,850 in competitive funding utilized for tuition, stipend and research travel.
+- Engineered and validated geospatial predictors from satellite imagery and topographic and environmental data, performing alignment, resampling, masking and aggregation across scales.
+- Evaluated model behavior using variable importance and Shapley values to identify key drivers and spatiotemporal patterns behind forest change.
+- Developed clear documentation, figures and maps to explain analytical methods and results to collaborators and external audiences (six national conferences, two peer-reviewed publications).
+- Secured $156,850 in competitive funding, including an NSF Graduate Research Fellowship.
 
 ---
 
@@ -32,7 +33,7 @@ RStudio, Google Earth Engine, Visual Studio Code, GitHub, Adobe Photoshop, Adobe
 **Kent State University** · *August 2020 – August 2022 · Hybrid* 
 
 - Acquired, cleaned, and integrated geospatial datasets from field surveys, satellite imagery and environmental sources to assess tree species regeneration.
-- Performed geospatial and spectral analyses to evaluate reflectance differences across vegetation types, time and seasons using GEE and ArcGIS.
+- Performed spatial and spectral analyses to evaluate reflectance differences across vegetation types, time and seasons using GEE and ArcGIS.
 - Created clear, reproducible data visualizations and figures for five professional presentations and publications.
 
 ---
@@ -55,11 +56,11 @@ RStudio, Google Earth Engine, Visual Studio Code, GitHub, Adobe Photoshop, Adobe
 ---
 
 # Education
-**M.S. Environmental Studies**, University of Oregon — *2025*
-
 **M.S. Geography**, University of Oregon — *2025*
 
-**B.S. Environmental Science**, Kent State University — *2021* (*Magna cum laude*)
+**M.S. Environmental Studies**, University of Oregon — *2025*
+
+**B.S. Environmental and Conservation Biology**, Kent State University — *2021* (*Magna cum laude*)
 
 ---
 
