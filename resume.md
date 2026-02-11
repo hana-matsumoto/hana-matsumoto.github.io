@@ -9,7 +9,7 @@ header:
 ---
 # Skills
 ### Languages
-Proficient in R | Experience with Python, SQL (PostgreSQL)
+R, Python, SQL (PostgreSQL)
 ### Tools
 RStudio, Google Earth Engine, ArcGIS Pro, QGIS, Visual Studio Code, GitHub, Adobe Photoshop, Adobe Illustrator, Blender, Jupyter Notebook
 
